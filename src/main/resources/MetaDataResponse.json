@@ -1,0 +1,5387 @@
+{
+    "resource": "slots",
+    "type": "object",
+    "label": {
+        "en": "Slots",
+        "sv": "Slots"
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "label": {
+                "en": "Slot ID",
+                "sv": "Face ID"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false
+        },
+        "panelId": {
+            "type": "number",
+            "label": {
+                "en": "Panels ID",
+                "sv": "Panels ID"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false
+        },
+        "externalKey": {
+            "type": "string",
+            "label": {
+                "en": "Variance",
+                "sv": "DIM Key"
+            },
+            "query": false,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false
+        },
+        "startDate": {
+            "type": "string",
+            "label": {
+                "en": "Start Date",
+                "sv": "Start Date"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false
+        },
+        "endDate": {
+            "type": "string",
+            "label": {
+                "en": "End Date",
+                "sv": "End Date"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false
+        },
+        "latitude": {
+            "type": "number",
+            "label": {
+                "en": "Latitude",
+                "sv": "Latitude"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false
+        },
+        "longitude": {
+            "type": "number",
+            "label": {
+                "en": "Longitude",
+                "sv": "Longitude"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false
+        },
+        "area": {
+            "type": "string",
+            "label": {
+                "en": "Advert Area",
+                "sv": "Municipality"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false,
+            "enum": [
+                "1440",
+                "1489",
+                "0764",
+                "0604",
+                "1984",
+                "2506",
+                "2505",
+                "1784",
+                "1882",
+                "2084",
+                "1460",
+                "2326",
+                "2403",
+                "1260",
+                "2582",
+                "1443",
+                "2183",
+                "0885",
+                "2081",
+                "1490",
+                "0127",
+                "0560",
+                "1272",
+                "2305",
+                "1231",
+                "1278",
+                "1438",
+                "0162",
+                "1862",
+                "2425",
+                "1730",
+                "0125",
+                "0686",
+                "0862",
+                "0381",
+                "0484",
+                "1285",
+                "1445",
+                "1982",
+                "1382",
+                "1499",
+                "2080",
+                "1782",
+                "0562",
+                "0482",
+                "1763",
+                "1439",
+                "2026",
+                "0662",
+                "0461",
+                "0617",
+                "0980",
+                "1764",
+                "1444",
+                "1447",
+                "2523",
+                "2180",
+                "1480",
+                "1471",
+                "0643",
+                "1783",
+                "1861",
+                "1961",
+                "1380",
+                "1761",
+                "0136",
+                "2583",
+                "0331",
+                "2083",
+                "1283",
+                "1466",
+                "1497",
+                "2104",
+                "0126",
+                "2184",
+                "0860",
+                "1315",
+                "0305",
+                "1863",
+                "2361",
+                "2280",
+                "1401",
+                "1293",
+                "1284",
+                "0821",
+                "1266",
+                "1267",
+                "2510",
+                "0123",
+                "0680",
+                "2514",
+                "0880",
+                "1446",
+                "1082",
+                "1883",
+                "1080",
+                "1780",
+                "0483",
+                "1715",
+                "0513",
+                "2584",
+                "1276",
+                "0330",
+                "2282",
+                "1290",
+                "1781",
+                "2309",
+                "1881",
+                "1384",
+                "1960",
+                "1482",
+                "1261",
+                "1983",
+                "1381",
+                "1282",
+                "1860",
+                "1814",
+                "2029",
+                "1441",
+                "0761",
+                "0186",
+                "1494",
+                "1462",
+                "1885",
+                "0580",
+                "0781",
+                "2161",
+                "1864",
+                "1262",
+                "2085",
+                "2580",
+                "1281",
+                "2481",
+                "1484",
+                "1280",
+                "2023",
+                "2418",
+                "1493",
+                "1463",
+                "0767",
+                "1461",
+                "0586",
+                "2062",
+                "0583",
+                "0642",
+                "1430",
+                "1762",
+                "1481",
+                "0861",
+                "0840",
+                "0182",
+                "1884",
+                "1962",
+                "2132",
+                "2401",
+                "0581",
+                "0188",
+                "2417",
+                "0881",
+                "0140",
+                "0480",
+                "0192",
+                "0682",
+                "2101",
+                "1060",
+                "2034",
+                "1421",
+                "1273",
+                "0882",
+                "2121",
+                "0481",
+                "2521",
+                "1402",
+                "1275",
+                "2581",
+                "2303",
+                "2409",
+                "1081",
+                "2031",
+                "1981",
+                "0128",
+                "2181",
+                "0191",
+                "1291",
+                "1265",
+                "1495",
+                "2482",
+                "1904",
+                "1264",
+                "1496",
+                "2061",
+                "2283",
+                "0163",
+                "0184",
+                "2422",
+                "1427",
+                "1230",
+                "1415",
+                "0180",
+                "1760",
+                "2421",
+                "0486",
+                "1486",
+                "2313",
+                "0183",
+                "2281",
+                "1766",
+                "1907",
+                "1214",
+                "1263",
+                "1465",
+                "1785",
+                "2082",
+                "0684",
+                "2182",
+                "0582",
+                "0181",
+                "1083",
+                "1435",
+                "1472",
+                "1498",
+                "0360",
+                "2262",
+                "0763",
+                "1419",
+                "1270",
+                "1737",
+                "0834",
+                "1452",
+                "0687",
+                "1287",
+                "1488",
+                "0488",
+                "0138",
+                "0160",
+                "1473",
+                "1485",
+                "1491",
+                "2480",
+                "0114",
+                "0139",
+                "0380",
+                "0760",
+                "0584",
+                "0665",
+                "0563",
+                "0115",
+                "2021",
+                "1470",
+                "1383",
+                "0187",
+                "1233",
+                "0685",
+                "2462",
+                "0884",
+                "2404",
+                "0428",
+                "1442",
+                "1487",
+                "2460",
+                "0120",
+                "0683",
+                "0883",
+                "1980",
+                "0780",
+                "0512",
+                "1286",
+                "1492",
+                "2260",
+                "2321",
+                "1765",
+                "2463",
+                "1277",
+                "0561",
+                "0765",
+                "2039",
+                "0319",
+                "2560",
+                "1292",
+                "1407",
+                "0509",
+                "1880",
+                "1257",
+                "2284",
+                "2380",
+                "0117",
+                "0382",
+                "1256",
+                "2513",
+                "2518"
+            ],
+            "options": {
+                "en": [
+                    {
+                        "value": "1440",
+                        "label": "Ale"
+                    },
+                    {
+                        "value": "1489",
+                        "label": "Alingsås"
+                    },
+                    {
+                        "value": "0764",
+                        "label": "Alvesta"
+                    },
+                    {
+                        "value": "0604",
+                        "label": "Aneby"
+                    },
+                    {
+                        "value": "1984",
+                        "label": "Arboga"
+                    },
+                    {
+                        "value": "2506",
+                        "label": "Arjeplog"
+                    },
+                    {
+                        "value": "2505",
+                        "label": "Arvidsjaur"
+                    },
+                    {
+                        "value": "1784",
+                        "label": "Arvika"
+                    },
+                    {
+                        "value": "1882",
+                        "label": "Askersund"
+                    },
+                    {
+                        "value": "2084",
+                        "label": "Avesta"
+                    },
+                    {
+                        "value": "1460",
+                        "label": "Bengtsfors"
+                    },
+                    {
+                        "value": "2326",
+                        "label": "Berg"
+                    },
+                    {
+                        "value": "2403",
+                        "label": "Bjurholm"
+                    },
+                    {
+                        "value": "1260",
+                        "label": "Bjuv"
+                    },
+                    {
+                        "value": "2582",
+                        "label": "Boden"
+                    },
+                    {
+                        "value": "1443",
+                        "label": "Bollebygd"
+                    },
+                    {
+                        "value": "2183",
+                        "label": "Bollnäs"
+                    },
+                    {
+                        "value": "0885",
+                        "label": "Borgholm"
+                    },
+                    {
+                        "value": "2081",
+                        "label": "Borlänge"
+                    },
+                    {
+                        "value": "1490",
+                        "label": "Borås"
+                    },
+                    {
+                        "value": "0127",
+                        "label": "Botkyrka"
+                    },
+                    {
+                        "value": "0560",
+                        "label": "Boxholm"
+                    },
+                    {
+                        "value": "1272",
+                        "label": "Bromölla"
+                    },
+                    {
+                        "value": "2305",
+                        "label": "Bräcke"
+                    },
+                    {
+                        "value": "1231",
+                        "label": "Burlöv"
+                    },
+                    {
+                        "value": "1278",
+                        "label": "Båstad"
+                    },
+                    {
+                        "value": "1438",
+                        "label": "Dals-Ed"
+                    },
+                    {
+                        "value": "0162",
+                        "label": "Danderyd"
+                    },
+                    {
+                        "value": "1862",
+                        "label": "Degerfors"
+                    },
+                    {
+                        "value": "2425",
+                        "label": "Dorotea"
+                    },
+                    {
+                        "value": "1730",
+                        "label": "Eda"
+                    },
+                    {
+                        "value": "0125",
+                        "label": "Ekerö"
+                    },
+                    {
+                        "value": "0686",
+                        "label": "Eksjö"
+                    },
+                    {
+                        "value": "0862",
+                        "label": "Emmaboda"
+                    },
+                    {
+                        "value": "0381",
+                        "label": "Enköping"
+                    },
+                    {
+                        "value": "0484",
+                        "label": "Eskilstuna"
+                    },
+                    {
+                        "value": "1285",
+                        "label": "Eslöv"
+                    },
+                    {
+                        "value": "1445",
+                        "label": "Essunga"
+                    },
+                    {
+                        "value": "1982",
+                        "label": "Fagersta"
+                    },
+                    {
+                        "value": "1382",
+                        "label": "Falkenberg"
+                    },
+                    {
+                        "value": "1499",
+                        "label": "Falköping"
+                    },
+                    {
+                        "value": "2080",
+                        "label": "Falun"
+                    },
+                    {
+                        "value": "1782",
+                        "label": "Filipstad"
+                    },
+                    {
+                        "value": "0562",
+                        "label": "Finspång"
+                    },
+                    {
+                        "value": "0482",
+                        "label": "Flen"
+                    },
+                    {
+                        "value": "1763",
+                        "label": "Forshaga"
+                    },
+                    {
+                        "value": "1439",
+                        "label": "Färgelanda"
+                    },
+                    {
+                        "value": "2026",
+                        "label": "Gagnef"
+                    },
+                    {
+                        "value": "0662",
+                        "label": "Gislaved"
+                    },
+                    {
+                        "value": "0461",
+                        "label": "Gnesta"
+                    },
+                    {
+                        "value": "0617",
+                        "label": "Gnosjö"
+                    },
+                    {
+                        "value": "0980",
+                        "label": "Gotland"
+                    },
+                    {
+                        "value": "1764",
+                        "label": "Grums"
+                    },
+                    {
+                        "value": "1444",
+                        "label": "Grästorp"
+                    },
+                    {
+                        "value": "1447",
+                        "label": "Gullspång"
+                    },
+                    {
+                        "value": "2523",
+                        "label": "Gällivare"
+                    },
+                    {
+                        "value": "2180",
+                        "label": "Gävle"
+                    },
+                    {
+                        "value": "1480",
+                        "label": "Göteborg"
+                    },
+                    {
+                        "value": "1471",
+                        "label": "Götene"
+                    },
+                    {
+                        "value": "0643",
+                        "label": "Habo"
+                    },
+                    {
+                        "value": "1783",
+                        "label": "Hagfors"
+                    },
+                    {
+                        "value": "1861",
+                        "label": "Hallsberg"
+                    },
+                    {
+                        "value": "1961",
+                        "label": "Hallstahammar"
+                    },
+                    {
+                        "value": "1380",
+                        "label": "Halmstad"
+                    },
+                    {
+                        "value": "1761",
+                        "label": "Hammarö"
+                    },
+                    {
+                        "value": "0136",
+                        "label": "Haninge"
+                    },
+                    {
+                        "value": "2583",
+                        "label": "Haparanda"
+                    },
+                    {
+                        "value": "0331",
+                        "label": "Heby"
+                    },
+                    {
+                        "value": "2083",
+                        "label": "Hedemora"
+                    },
+                    {
+                        "value": "1283",
+                        "label": "Helsingborg"
+                    },
+                    {
+                        "value": "1466",
+                        "label": "Herrljunga"
+                    },
+                    {
+                        "value": "1497",
+                        "label": "Hjo"
+                    },
+                    {
+                        "value": "2104",
+                        "label": "Hofors"
+                    },
+                    {
+                        "value": "0126",
+                        "label": "Huddinge"
+                    },
+                    {
+                        "value": "2184",
+                        "label": "Hudiksvall"
+                    },
+                    {
+                        "value": "0860",
+                        "label": "Hultsfred"
+                    },
+                    {
+                        "value": "1315",
+                        "label": "Hylte"
+                    },
+                    {
+                        "value": "0305",
+                        "label": "Håbo"
+                    },
+                    {
+                        "value": "1863",
+                        "label": "Hällefors"
+                    },
+                    {
+                        "value": "2361",
+                        "label": "Härjedalen"
+                    },
+                    {
+                        "value": "2280",
+                        "label": "Härnösand"
+                    },
+                    {
+                        "value": "1401",
+                        "label": "Härryda"
+                    },
+                    {
+                        "value": "1293",
+                        "label": "Hässleholm"
+                    },
+                    {
+                        "value": "1284",
+                        "label": "Höganäs"
+                    },
+                    {
+                        "value": "0821",
+                        "label": "Högsby"
+                    },
+                    {
+                        "value": "1266",
+                        "label": "Hörby"
+                    },
+                    {
+                        "value": "1267",
+                        "label": "Höör"
+                    },
+                    {
+                        "value": "2510",
+                        "label": "Jokkmokk"
+                    },
+                    {
+                        "value": "0123",
+                        "label": "Järfälla"
+                    },
+                    {
+                        "value": "0680",
+                        "label": "Jönköping"
+                    },
+                    {
+                        "value": "2514",
+                        "label": "Kalix"
+                    },
+                    {
+                        "value": "0880",
+                        "label": "Kalmar"
+                    },
+                    {
+                        "value": "1446",
+                        "label": "Karlsborg"
+                    },
+                    {
+                        "value": "1082",
+                        "label": "Karlshamn"
+                    },
+                    {
+                        "value": "1883",
+                        "label": "Karlskoga"
+                    },
+                    {
+                        "value": "1080",
+                        "label": "Karlskrona"
+                    },
+                    {
+                        "value": "1780",
+                        "label": "Karlstad"
+                    },
+                    {
+                        "value": "0483",
+                        "label": "Katrineholm"
+                    },
+                    {
+                        "value": "1715",
+                        "label": "Kil"
+                    },
+                    {
+                        "value": "0513",
+                        "label": "Kinda"
+                    },
+                    {
+                        "value": "2584",
+                        "label": "Kiruna"
+                    },
+                    {
+                        "value": "1276",
+                        "label": "Klippan"
+                    },
+                    {
+                        "value": "0330",
+                        "label": "Knivsta"
+                    },
+                    {
+                        "value": "2282",
+                        "label": "Kramfors"
+                    },
+                    {
+                        "value": "1290",
+                        "label": "Kristianstad"
+                    },
+                    {
+                        "value": "1781",
+                        "label": "Kristinehamn"
+                    },
+                    {
+                        "value": "2309",
+                        "label": "Krokom"
+                    },
+                    {
+                        "value": "1881",
+                        "label": "Kumla"
+                    },
+                    {
+                        "value": "1384",
+                        "label": "Kungsbacka"
+                    },
+                    {
+                        "value": "1960",
+                        "label": "Kungsör"
+                    },
+                    {
+                        "value": "1482",
+                        "label": "Kungälv"
+                    },
+                    {
+                        "value": "1261",
+                        "label": "Kävlinge"
+                    },
+                    {
+                        "value": "1983",
+                        "label": "Köping"
+                    },
+                    {
+                        "value": "1381",
+                        "label": "Laholm"
+                    },
+                    {
+                        "value": "1282",
+                        "label": "Landskrona"
+                    },
+                    {
+                        "value": "1860",
+                        "label": "Laxå"
+                    },
+                    {
+                        "value": "1814",
+                        "label": "Lekeberg"
+                    },
+                    {
+                        "value": "2029",
+                        "label": "Leksand"
+                    },
+                    {
+                        "value": "1441",
+                        "label": "Lerum"
+                    },
+                    {
+                        "value": "0761",
+                        "label": "Lessebo"
+                    },
+                    {
+                        "value": "0186",
+                        "label": "Lidingö"
+                    },
+                    {
+                        "value": "1494",
+                        "label": "Lidköping"
+                    },
+                    {
+                        "value": "1462",
+                        "label": "Lilla Edet"
+                    },
+                    {
+                        "value": "1885",
+                        "label": "Lindesberg"
+                    },
+                    {
+                        "value": "0580",
+                        "label": "Linköping"
+                    },
+                    {
+                        "value": "0781",
+                        "label": "Ljungby"
+                    },
+                    {
+                        "value": "2161",
+                        "label": "Ljusdal"
+                    },
+                    {
+                        "value": "1864",
+                        "label": "Ljusnarsberg"
+                    },
+                    {
+                        "value": "1262",
+                        "label": "Lomma"
+                    },
+                    {
+                        "value": "2085",
+                        "label": "Ludvika"
+                    },
+                    {
+                        "value": "2580",
+                        "label": "Luleå"
+                    },
+                    {
+                        "value": "1281",
+                        "label": "Lund"
+                    },
+                    {
+                        "value": "2481",
+                        "label": "Lycksele"
+                    },
+                    {
+                        "value": "1484",
+                        "label": "Lysekil"
+                    },
+                    {
+                        "value": "1280",
+                        "label": "Malmö"
+                    },
+                    {
+                        "value": "2023",
+                        "label": "Malung-Sälen"
+                    },
+                    {
+                        "value": "2418",
+                        "label": "Malå"
+                    },
+                    {
+                        "value": "1493",
+                        "label": "Mariestad"
+                    },
+                    {
+                        "value": "1463",
+                        "label": "Mark"
+                    },
+                    {
+                        "value": "0767",
+                        "label": "Markaryd"
+                    },
+                    {
+                        "value": "1461",
+                        "label": "Mellerud"
+                    },
+                    {
+                        "value": "0586",
+                        "label": "Mjölby"
+                    },
+                    {
+                        "value": "2062",
+                        "label": "Mora"
+                    },
+                    {
+                        "value": "0583",
+                        "label": "Motala"
+                    },
+                    {
+                        "value": "0642",
+                        "label": "Mullsjö"
+                    },
+                    {
+                        "value": "1430",
+                        "label": "Munkedal"
+                    },
+                    {
+                        "value": "1762",
+                        "label": "Munkfors"
+                    },
+                    {
+                        "value": "1481",
+                        "label": "Mölndal"
+                    },
+                    {
+                        "value": "0861",
+                        "label": "Mönsterås"
+                    },
+                    {
+                        "value": "0840",
+                        "label": "Mörbylånga"
+                    },
+                    {
+                        "value": "0182",
+                        "label": "Nacka"
+                    },
+                    {
+                        "value": "1884",
+                        "label": "Nora"
+                    },
+                    {
+                        "value": "1962",
+                        "label": "Norberg"
+                    },
+                    {
+                        "value": "2132",
+                        "label": "Nordanstig"
+                    },
+                    {
+                        "value": "2401",
+                        "label": "Nordmaling"
+                    },
+                    {
+                        "value": "0581",
+                        "label": "Norrköping"
+                    },
+                    {
+                        "value": "0188",
+                        "label": "Norrtälje"
+                    },
+                    {
+                        "value": "2417",
+                        "label": "Norsjö"
+                    },
+                    {
+                        "value": "0881",
+                        "label": "Nybro"
+                    },
+                    {
+                        "value": "0140",
+                        "label": "Nykvarn"
+                    },
+                    {
+                        "value": "0480",
+                        "label": "Nyköping"
+                    },
+                    {
+                        "value": "0192",
+                        "label": "Nynäshamn"
+                    },
+                    {
+                        "value": "0682",
+                        "label": "Nässjö"
+                    },
+                    {
+                        "value": "2101",
+                        "label": "Ockelbo"
+                    },
+                    {
+                        "value": "1060",
+                        "label": "Olofström"
+                    },
+                    {
+                        "value": "2034",
+                        "label": "Orsa"
+                    },
+                    {
+                        "value": "1421",
+                        "label": "Orust"
+                    },
+                    {
+                        "value": "1273",
+                        "label": "Osby"
+                    },
+                    {
+                        "value": "0882",
+                        "label": "Oskarshamn"
+                    },
+                    {
+                        "value": "2121",
+                        "label": "Ovanåker"
+                    },
+                    {
+                        "value": "0481",
+                        "label": "Oxelösund"
+                    },
+                    {
+                        "value": "2521",
+                        "label": "Pajala"
+                    },
+                    {
+                        "value": "1402",
+                        "label": "Partille"
+                    },
+                    {
+                        "value": "1275",
+                        "label": "Perstorp"
+                    },
+                    {
+                        "value": "2581",
+                        "label": "Piteå"
+                    },
+                    {
+                        "value": "2303",
+                        "label": "Ragunda"
+                    },
+                    {
+                        "value": "2409",
+                        "label": "Robertsfors"
+                    },
+                    {
+                        "value": "1081",
+                        "label": "Ronneby"
+                    },
+                    {
+                        "value": "2031",
+                        "label": "Rättvik"
+                    },
+                    {
+                        "value": "1981",
+                        "label": "Sala"
+                    },
+                    {
+                        "value": "0128",
+                        "label": "Salem"
+                    },
+                    {
+                        "value": "2181",
+                        "label": "Sandviken"
+                    },
+                    {
+                        "value": "0191",
+                        "label": "Sigtuna"
+                    },
+                    {
+                        "value": "1291",
+                        "label": "Simrishamn"
+                    },
+                    {
+                        "value": "1265",
+                        "label": "Sjöbo"
+                    },
+                    {
+                        "value": "1495",
+                        "label": "Skara"
+                    },
+                    {
+                        "value": "2482",
+                        "label": "Skellefteå"
+                    },
+                    {
+                        "value": "1904",
+                        "label": "Skinnskatteberg"
+                    },
+                    {
+                        "value": "1264",
+                        "label": "Skurup"
+                    },
+                    {
+                        "value": "1496",
+                        "label": "Skövde"
+                    },
+                    {
+                        "value": "2061",
+                        "label": "Smedjebacken"
+                    },
+                    {
+                        "value": "2283",
+                        "label": "Sollefteå"
+                    },
+                    {
+                        "value": "0163",
+                        "label": "Sollentuna"
+                    },
+                    {
+                        "value": "0184",
+                        "label": "Solna"
+                    },
+                    {
+                        "value": "2422",
+                        "label": "Sorsele"
+                    },
+                    {
+                        "value": "1427",
+                        "label": "Sotenäs"
+                    },
+                    {
+                        "value": "1230",
+                        "label": "Staffanstorp"
+                    },
+                    {
+                        "value": "1415",
+                        "label": "Stenungsund"
+                    },
+                    {
+                        "value": "0180",
+                        "label": "Stockholm"
+                    },
+                    {
+                        "value": "1760",
+                        "label": "Storfors"
+                    },
+                    {
+                        "value": "2421",
+                        "label": "Storuman"
+                    },
+                    {
+                        "value": "0486",
+                        "label": "Strängnäs"
+                    },
+                    {
+                        "value": "1486",
+                        "label": "Strömstad"
+                    },
+                    {
+                        "value": "2313",
+                        "label": "Strömsund"
+                    },
+                    {
+                        "value": "0183",
+                        "label": "Sundbyberg"
+                    },
+                    {
+                        "value": "2281",
+                        "label": "Sundsvall"
+                    },
+                    {
+                        "value": "1766",
+                        "label": "Sunne"
+                    },
+                    {
+                        "value": "1907",
+                        "label": "Surahammar"
+                    },
+                    {
+                        "value": "1214",
+                        "label": "Svalöv"
+                    },
+                    {
+                        "value": "1263",
+                        "label": "Svedala"
+                    },
+                    {
+                        "value": "1465",
+                        "label": "Svenljunga"
+                    },
+                    {
+                        "value": "1785",
+                        "label": "Säffle"
+                    },
+                    {
+                        "value": "2082",
+                        "label": "Säter"
+                    },
+                    {
+                        "value": "0684",
+                        "label": "Sävsjö"
+                    },
+                    {
+                        "value": "2182",
+                        "label": "Söderhamn"
+                    },
+                    {
+                        "value": "0582",
+                        "label": "Söderköping"
+                    },
+                    {
+                        "value": "0181",
+                        "label": "Södertälje"
+                    },
+                    {
+                        "value": "1083",
+                        "label": "Sölvesborg"
+                    },
+                    {
+                        "value": "1435",
+                        "label": "Tanum"
+                    },
+                    {
+                        "value": "1472",
+                        "label": "Tibro"
+                    },
+                    {
+                        "value": "1498",
+                        "label": "Tidaholm"
+                    },
+                    {
+                        "value": "0360",
+                        "label": "Tierp"
+                    },
+                    {
+                        "value": "2262",
+                        "label": "Timrå"
+                    },
+                    {
+                        "value": "0763",
+                        "label": "Tingsryd"
+                    },
+                    {
+                        "value": "1419",
+                        "label": "Tjörn"
+                    },
+                    {
+                        "value": "1270",
+                        "label": "Tomelilla"
+                    },
+                    {
+                        "value": "1737",
+                        "label": "Torsby"
+                    },
+                    {
+                        "value": "0834",
+                        "label": "Torsås"
+                    },
+                    {
+                        "value": "1452",
+                        "label": "Tranemo"
+                    },
+                    {
+                        "value": "0687",
+                        "label": "Tranås"
+                    },
+                    {
+                        "value": "1287",
+                        "label": "Trelleborg"
+                    },
+                    {
+                        "value": "1488",
+                        "label": "Trollhättan"
+                    },
+                    {
+                        "value": "0488",
+                        "label": "Trosa"
+                    },
+                    {
+                        "value": "0138",
+                        "label": "Tyresö"
+                    },
+                    {
+                        "value": "0160",
+                        "label": "Täby"
+                    },
+                    {
+                        "value": "1473",
+                        "label": "Töreboda"
+                    },
+                    {
+                        "value": "1485",
+                        "label": "Uddevalla"
+                    },
+                    {
+                        "value": "1491",
+                        "label": "Ulricehamn"
+                    },
+                    {
+                        "value": "2480",
+                        "label": "Umeå"
+                    },
+                    {
+                        "value": "0114",
+                        "label": "Upplands Väsby"
+                    },
+                    {
+                        "value": "0139",
+                        "label": "Upplands-Bro"
+                    },
+                    {
+                        "value": "0380",
+                        "label": "Uppsala"
+                    },
+                    {
+                        "value": "0760",
+                        "label": "Uppvidinge"
+                    },
+                    {
+                        "value": "0584",
+                        "label": "Vadstena"
+                    },
+                    {
+                        "value": "0665",
+                        "label": "Vaggeryd"
+                    },
+                    {
+                        "value": "0563",
+                        "label": "Valdemarsvik"
+                    },
+                    {
+                        "value": "0115",
+                        "label": "Vallentuna"
+                    },
+                    {
+                        "value": "2021",
+                        "label": "Vansbro"
+                    },
+                    {
+                        "value": "1470",
+                        "label": "Vara"
+                    },
+                    {
+                        "value": "1383",
+                        "label": "Varberg"
+                    },
+                    {
+                        "value": "0187",
+                        "label": "Vaxholm"
+                    },
+                    {
+                        "value": "1233",
+                        "label": "Vellinge"
+                    },
+                    {
+                        "value": "0685",
+                        "label": "Vetlanda"
+                    },
+                    {
+                        "value": "2462",
+                        "label": "Vilhelmina"
+                    },
+                    {
+                        "value": "0884",
+                        "label": "Vimmerby"
+                    },
+                    {
+                        "value": "2404",
+                        "label": "Vindeln"
+                    },
+                    {
+                        "value": "0428",
+                        "label": "Vingåker"
+                    },
+                    {
+                        "value": "1442",
+                        "label": "Vårgårda"
+                    },
+                    {
+                        "value": "1487",
+                        "label": "Vänersborg"
+                    },
+                    {
+                        "value": "2460",
+                        "label": "Vännäs"
+                    },
+                    {
+                        "value": "0120",
+                        "label": "Värmdö"
+                    },
+                    {
+                        "value": "0683",
+                        "label": "Värnamo"
+                    },
+                    {
+                        "value": "0883",
+                        "label": "Västervik"
+                    },
+                    {
+                        "value": "1980",
+                        "label": "Västerås"
+                    },
+                    {
+                        "value": "0780",
+                        "label": "Växjö"
+                    },
+                    {
+                        "value": "0512",
+                        "label": "Ydre"
+                    },
+                    {
+                        "value": "1286",
+                        "label": "Ystad"
+                    },
+                    {
+                        "value": "1492",
+                        "label": "Åmål"
+                    },
+                    {
+                        "value": "2260",
+                        "label": "Ånge"
+                    },
+                    {
+                        "value": "2321",
+                        "label": "Åre"
+                    },
+                    {
+                        "value": "1765",
+                        "label": "Årjäng"
+                    },
+                    {
+                        "value": "2463",
+                        "label": "Åsele"
+                    },
+                    {
+                        "value": "1277",
+                        "label": "Åstorp"
+                    },
+                    {
+                        "value": "0561",
+                        "label": "Åtvidaberg"
+                    },
+                    {
+                        "value": "0765",
+                        "label": "Älmhult"
+                    },
+                    {
+                        "value": "2039",
+                        "label": "Älvdalen"
+                    },
+                    {
+                        "value": "0319",
+                        "label": "Älvkarleby"
+                    },
+                    {
+                        "value": "2560",
+                        "label": "Älvsbyn"
+                    },
+                    {
+                        "value": "1292",
+                        "label": "Ängelholm"
+                    },
+                    {
+                        "value": "1407",
+                        "label": "Öckerö"
+                    },
+                    {
+                        "value": "0509",
+                        "label": "Ödeshög"
+                    },
+                    {
+                        "value": "1880",
+                        "label": "Örebro"
+                    },
+                    {
+                        "value": "1257",
+                        "label": "Örkelljunga"
+                    },
+                    {
+                        "value": "2284",
+                        "label": "Örnsköldsvik"
+                    },
+                    {
+                        "value": "2380",
+                        "label": "Östersund"
+                    },
+                    {
+                        "value": "0117",
+                        "label": "Österåker"
+                    },
+                    {
+                        "value": "0382",
+                        "label": "Östhammar"
+                    },
+                    {
+                        "value": "1256",
+                        "label": "Östra Göinge"
+                    },
+                    {
+                        "value": "2513",
+                        "label": "Överkalix"
+                    },
+                    {
+                        "value": "2518",
+                        "label": "Övertorneå"
+                    }
+                ],
+                "sv": [
+                    {
+                        "value": "1440",
+                        "label": "Ale"
+                    },
+                    {
+                        "value": "1489",
+                        "label": "Alingsås"
+                    },
+                    {
+                        "value": "0764",
+                        "label": "Alvesta"
+                    },
+                    {
+                        "value": "0604",
+                        "label": "Aneby"
+                    },
+                    {
+                        "value": "1984",
+                        "label": "Arboga"
+                    },
+                    {
+                        "value": "2506",
+                        "label": "Arjeplog"
+                    },
+                    {
+                        "value": "2505",
+                        "label": "Arvidsjaur"
+                    },
+                    {
+                        "value": "1784",
+                        "label": "Arvika"
+                    },
+                    {
+                        "value": "1882",
+                        "label": "Askersund"
+                    },
+                    {
+                        "value": "2084",
+                        "label": "Avesta"
+                    },
+                    {
+                        "value": "1460",
+                        "label": "Bengtsfors"
+                    },
+                    {
+                        "value": "2326",
+                        "label": "Berg"
+                    },
+                    {
+                        "value": "2403",
+                        "label": "Bjurholm"
+                    },
+                    {
+                        "value": "1260",
+                        "label": "Bjuv"
+                    },
+                    {
+                        "value": "2582",
+                        "label": "Boden"
+                    },
+                    {
+                        "value": "1443",
+                        "label": "Bollebygd"
+                    },
+                    {
+                        "value": "2183",
+                        "label": "Bollnäs"
+                    },
+                    {
+                        "value": "0885",
+                        "label": "Borgholm"
+                    },
+                    {
+                        "value": "2081",
+                        "label": "Borlänge"
+                    },
+                    {
+                        "value": "1490",
+                        "label": "Borås"
+                    },
+                    {
+                        "value": "0127",
+                        "label": "Botkyrka"
+                    },
+                    {
+                        "value": "0560",
+                        "label": "Boxholm"
+                    },
+                    {
+                        "value": "1272",
+                        "label": "Bromölla"
+                    },
+                    {
+                        "value": "2305",
+                        "label": "Bräcke"
+                    },
+                    {
+                        "value": "1231",
+                        "label": "Burlöv"
+                    },
+                    {
+                        "value": "1278",
+                        "label": "Båstad"
+                    },
+                    {
+                        "value": "1438",
+                        "label": "Dals-Ed"
+                    },
+                    {
+                        "value": "0162",
+                        "label": "Danderyd"
+                    },
+                    {
+                        "value": "1862",
+                        "label": "Degerfors"
+                    },
+                    {
+                        "value": "2425",
+                        "label": "Dorotea"
+                    },
+                    {
+                        "value": "1730",
+                        "label": "Eda"
+                    },
+                    {
+                        "value": "0125",
+                        "label": "Ekerö"
+                    },
+                    {
+                        "value": "0686",
+                        "label": "Eksjö"
+                    },
+                    {
+                        "value": "0862",
+                        "label": "Emmaboda"
+                    },
+                    {
+                        "value": "0381",
+                        "label": "Enköping"
+                    },
+                    {
+                        "value": "0484",
+                        "label": "Eskilstuna"
+                    },
+                    {
+                        "value": "1285",
+                        "label": "Eslöv"
+                    },
+                    {
+                        "value": "1445",
+                        "label": "Essunga"
+                    },
+                    {
+                        "value": "1982",
+                        "label": "Fagersta"
+                    },
+                    {
+                        "value": "1382",
+                        "label": "Falkenberg"
+                    },
+                    {
+                        "value": "1499",
+                        "label": "Falköping"
+                    },
+                    {
+                        "value": "2080",
+                        "label": "Falun"
+                    },
+                    {
+                        "value": "1782",
+                        "label": "Filipstad"
+                    },
+                    {
+                        "value": "0562",
+                        "label": "Finspång"
+                    },
+                    {
+                        "value": "0482",
+                        "label": "Flen"
+                    },
+                    {
+                        "value": "1763",
+                        "label": "Forshaga"
+                    },
+                    {
+                        "value": "1439",
+                        "label": "Färgelanda"
+                    },
+                    {
+                        "value": "2026",
+                        "label": "Gagnef"
+                    },
+                    {
+                        "value": "0662",
+                        "label": "Gislaved"
+                    },
+                    {
+                        "value": "0461",
+                        "label": "Gnesta"
+                    },
+                    {
+                        "value": "0617",
+                        "label": "Gnosjö"
+                    },
+                    {
+                        "value": "0980",
+                        "label": "Gotland"
+                    },
+                    {
+                        "value": "1764",
+                        "label": "Grums"
+                    },
+                    {
+                        "value": "1444",
+                        "label": "Grästorp"
+                    },
+                    {
+                        "value": "1447",
+                        "label": "Gullspång"
+                    },
+                    {
+                        "value": "2523",
+                        "label": "Gällivare"
+                    },
+                    {
+                        "value": "2180",
+                        "label": "Gävle"
+                    },
+                    {
+                        "value": "1480",
+                        "label": "Göteborg"
+                    },
+                    {
+                        "value": "1471",
+                        "label": "Götene"
+                    },
+                    {
+                        "value": "0643",
+                        "label": "Habo"
+                    },
+                    {
+                        "value": "1783",
+                        "label": "Hagfors"
+                    },
+                    {
+                        "value": "1861",
+                        "label": "Hallsberg"
+                    },
+                    {
+                        "value": "1961",
+                        "label": "Hallstahammar"
+                    },
+                    {
+                        "value": "1380",
+                        "label": "Halmstad"
+                    },
+                    {
+                        "value": "1761",
+                        "label": "Hammarö"
+                    },
+                    {
+                        "value": "0136",
+                        "label": "Haninge"
+                    },
+                    {
+                        "value": "2583",
+                        "label": "Haparanda"
+                    },
+                    {
+                        "value": "0331",
+                        "label": "Heby"
+                    },
+                    {
+                        "value": "2083",
+                        "label": "Hedemora"
+                    },
+                    {
+                        "value": "1283",
+                        "label": "Helsingborg"
+                    },
+                    {
+                        "value": "1466",
+                        "label": "Herrljunga"
+                    },
+                    {
+                        "value": "1497",
+                        "label": "Hjo"
+                    },
+                    {
+                        "value": "2104",
+                        "label": "Hofors"
+                    },
+                    {
+                        "value": "0126",
+                        "label": "Huddinge"
+                    },
+                    {
+                        "value": "2184",
+                        "label": "Hudiksvall"
+                    },
+                    {
+                        "value": "0860",
+                        "label": "Hultsfred"
+                    },
+                    {
+                        "value": "1315",
+                        "label": "Hylte"
+                    },
+                    {
+                        "value": "0305",
+                        "label": "Håbo"
+                    },
+                    {
+                        "value": "1863",
+                        "label": "Hällefors"
+                    },
+                    {
+                        "value": "2361",
+                        "label": "Härjedalen"
+                    },
+                    {
+                        "value": "2280",
+                        "label": "Härnösand"
+                    },
+                    {
+                        "value": "1401",
+                        "label": "Härryda"
+                    },
+                    {
+                        "value": "1293",
+                        "label": "Hässleholm"
+                    },
+                    {
+                        "value": "1284",
+                        "label": "Höganäs"
+                    },
+                    {
+                        "value": "0821",
+                        "label": "Högsby"
+                    },
+                    {
+                        "value": "1266",
+                        "label": "Hörby"
+                    },
+                    {
+                        "value": "1267",
+                        "label": "Höör"
+                    },
+                    {
+                        "value": "2510",
+                        "label": "Jokkmokk"
+                    },
+                    {
+                        "value": "0123",
+                        "label": "Järfälla"
+                    },
+                    {
+                        "value": "0680",
+                        "label": "Jönköping"
+                    },
+                    {
+                        "value": "2514",
+                        "label": "Kalix"
+                    },
+                    {
+                        "value": "0880",
+                        "label": "Kalmar"
+                    },
+                    {
+                        "value": "1446",
+                        "label": "Karlsborg"
+                    },
+                    {
+                        "value": "1082",
+                        "label": "Karlshamn"
+                    },
+                    {
+                        "value": "1883",
+                        "label": "Karlskoga"
+                    },
+                    {
+                        "value": "1080",
+                        "label": "Karlskrona"
+                    },
+                    {
+                        "value": "1780",
+                        "label": "Karlstad"
+                    },
+                    {
+                        "value": "0483",
+                        "label": "Katrineholm"
+                    },
+                    {
+                        "value": "1715",
+                        "label": "Kil"
+                    },
+                    {
+                        "value": "0513",
+                        "label": "Kinda"
+                    },
+                    {
+                        "value": "2584",
+                        "label": "Kiruna"
+                    },
+                    {
+                        "value": "1276",
+                        "label": "Klippan"
+                    },
+                    {
+                        "value": "0330",
+                        "label": "Knivsta"
+                    },
+                    {
+                        "value": "2282",
+                        "label": "Kramfors"
+                    },
+                    {
+                        "value": "1290",
+                        "label": "Kristianstad"
+                    },
+                    {
+                        "value": "1781",
+                        "label": "Kristinehamn"
+                    },
+                    {
+                        "value": "2309",
+                        "label": "Krokom"
+                    },
+                    {
+                        "value": "1881",
+                        "label": "Kumla"
+                    },
+                    {
+                        "value": "1384",
+                        "label": "Kungsbacka"
+                    },
+                    {
+                        "value": "1960",
+                        "label": "Kungsör"
+                    },
+                    {
+                        "value": "1482",
+                        "label": "Kungälv"
+                    },
+                    {
+                        "value": "1261",
+                        "label": "Kävlinge"
+                    },
+                    {
+                        "value": "1983",
+                        "label": "Köping"
+                    },
+                    {
+                        "value": "1381",
+                        "label": "Laholm"
+                    },
+                    {
+                        "value": "1282",
+                        "label": "Landskrona"
+                    },
+                    {
+                        "value": "1860",
+                        "label": "Laxå"
+                    },
+                    {
+                        "value": "1814",
+                        "label": "Lekeberg"
+                    },
+                    {
+                        "value": "2029",
+                        "label": "Leksand"
+                    },
+                    {
+                        "value": "1441",
+                        "label": "Lerum"
+                    },
+                    {
+                        "value": "0761",
+                        "label": "Lessebo"
+                    },
+                    {
+                        "value": "0186",
+                        "label": "Lidingö"
+                    },
+                    {
+                        "value": "1494",
+                        "label": "Lidköping"
+                    },
+                    {
+                        "value": "1462",
+                        "label": "Lilla Edet"
+                    },
+                    {
+                        "value": "1885",
+                        "label": "Lindesberg"
+                    },
+                    {
+                        "value": "0580",
+                        "label": "Linköping"
+                    },
+                    {
+                        "value": "0781",
+                        "label": "Ljungby"
+                    },
+                    {
+                        "value": "2161",
+                        "label": "Ljusdal"
+                    },
+                    {
+                        "value": "1864",
+                        "label": "Ljusnarsberg"
+                    },
+                    {
+                        "value": "1262",
+                        "label": "Lomma"
+                    },
+                    {
+                        "value": "2085",
+                        "label": "Ludvika"
+                    },
+                    {
+                        "value": "2580",
+                        "label": "Luleå"
+                    },
+                    {
+                        "value": "1281",
+                        "label": "Lund"
+                    },
+                    {
+                        "value": "2481",
+                        "label": "Lycksele"
+                    },
+                    {
+                        "value": "1484",
+                        "label": "Lysekil"
+                    },
+                    {
+                        "value": "1280",
+                        "label": "Malmö"
+                    },
+                    {
+                        "value": "2023",
+                        "label": "Malung-Sälen"
+                    },
+                    {
+                        "value": "2418",
+                        "label": "Malå"
+                    },
+                    {
+                        "value": "1493",
+                        "label": "Mariestad"
+                    },
+                    {
+                        "value": "1463",
+                        "label": "Mark"
+                    },
+                    {
+                        "value": "0767",
+                        "label": "Markaryd"
+                    },
+                    {
+                        "value": "1461",
+                        "label": "Mellerud"
+                    },
+                    {
+                        "value": "0586",
+                        "label": "Mjölby"
+                    },
+                    {
+                        "value": "2062",
+                        "label": "Mora"
+                    },
+                    {
+                        "value": "0583",
+                        "label": "Motala"
+                    },
+                    {
+                        "value": "0642",
+                        "label": "Mullsjö"
+                    },
+                    {
+                        "value": "1430",
+                        "label": "Munkedal"
+                    },
+                    {
+                        "value": "1762",
+                        "label": "Munkfors"
+                    },
+                    {
+                        "value": "1481",
+                        "label": "Mölndal"
+                    },
+                    {
+                        "value": "0861",
+                        "label": "Mönsterås"
+                    },
+                    {
+                        "value": "0840",
+                        "label": "Mörbylånga"
+                    },
+                    {
+                        "value": "0182",
+                        "label": "Nacka"
+                    },
+                    {
+                        "value": "1884",
+                        "label": "Nora"
+                    },
+                    {
+                        "value": "1962",
+                        "label": "Norberg"
+                    },
+                    {
+                        "value": "2132",
+                        "label": "Nordanstig"
+                    },
+                    {
+                        "value": "2401",
+                        "label": "Nordmaling"
+                    },
+                    {
+                        "value": "0581",
+                        "label": "Norrköping"
+                    },
+                    {
+                        "value": "0188",
+                        "label": "Norrtälje"
+                    },
+                    {
+                        "value": "2417",
+                        "label": "Norsjö"
+                    },
+                    {
+                        "value": "0881",
+                        "label": "Nybro"
+                    },
+                    {
+                        "value": "0140",
+                        "label": "Nykvarn"
+                    },
+                    {
+                        "value": "0480",
+                        "label": "Nyköping"
+                    },
+                    {
+                        "value": "0192",
+                        "label": "Nynäshamn"
+                    },
+                    {
+                        "value": "0682",
+                        "label": "Nässjö"
+                    },
+                    {
+                        "value": "2101",
+                        "label": "Ockelbo"
+                    },
+                    {
+                        "value": "1060",
+                        "label": "Olofström"
+                    },
+                    {
+                        "value": "2034",
+                        "label": "Orsa"
+                    },
+                    {
+                        "value": "1421",
+                        "label": "Orust"
+                    },
+                    {
+                        "value": "1273",
+                        "label": "Osby"
+                    },
+                    {
+                        "value": "0882",
+                        "label": "Oskarshamn"
+                    },
+                    {
+                        "value": "2121",
+                        "label": "Ovanåker"
+                    },
+                    {
+                        "value": "0481",
+                        "label": "Oxelösund"
+                    },
+                    {
+                        "value": "2521",
+                        "label": "Pajala"
+                    },
+                    {
+                        "value": "1402",
+                        "label": "Partille"
+                    },
+                    {
+                        "value": "1275",
+                        "label": "Perstorp"
+                    },
+                    {
+                        "value": "2581",
+                        "label": "Piteå"
+                    },
+                    {
+                        "value": "2303",
+                        "label": "Ragunda"
+                    },
+                    {
+                        "value": "2409",
+                        "label": "Robertsfors"
+                    },
+                    {
+                        "value": "1081",
+                        "label": "Ronneby"
+                    },
+                    {
+                        "value": "2031",
+                        "label": "Rättvik"
+                    },
+                    {
+                        "value": "1981",
+                        "label": "Sala"
+                    },
+                    {
+                        "value": "0128",
+                        "label": "Salem"
+                    },
+                    {
+                        "value": "2181",
+                        "label": "Sandviken"
+                    },
+                    {
+                        "value": "0191",
+                        "label": "Sigtuna"
+                    },
+                    {
+                        "value": "1291",
+                        "label": "Simrishamn"
+                    },
+                    {
+                        "value": "1265",
+                        "label": "Sjöbo"
+                    },
+                    {
+                        "value": "1495",
+                        "label": "Skara"
+                    },
+                    {
+                        "value": "2482",
+                        "label": "Skellefteå"
+                    },
+                    {
+                        "value": "1904",
+                        "label": "Skinnskatteberg"
+                    },
+                    {
+                        "value": "1264",
+                        "label": "Skurup"
+                    },
+                    {
+                        "value": "1496",
+                        "label": "Skövde"
+                    },
+                    {
+                        "value": "2061",
+                        "label": "Smedjebacken"
+                    },
+                    {
+                        "value": "2283",
+                        "label": "Sollefteå"
+                    },
+                    {
+                        "value": "0163",
+                        "label": "Sollentuna"
+                    },
+                    {
+                        "value": "0184",
+                        "label": "Solna"
+                    },
+                    {
+                        "value": "2422",
+                        "label": "Sorsele"
+                    },
+                    {
+                        "value": "1427",
+                        "label": "Sotenäs"
+                    },
+                    {
+                        "value": "1230",
+                        "label": "Staffanstorp"
+                    },
+                    {
+                        "value": "1415",
+                        "label": "Stenungsund"
+                    },
+                    {
+                        "value": "0180",
+                        "label": "Stockholm"
+                    },
+                    {
+                        "value": "1760",
+                        "label": "Storfors"
+                    },
+                    {
+                        "value": "2421",
+                        "label": "Storuman"
+                    },
+                    {
+                        "value": "0486",
+                        "label": "Strängnäs"
+                    },
+                    {
+                        "value": "1486",
+                        "label": "Strömstad"
+                    },
+                    {
+                        "value": "2313",
+                        "label": "Strömsund"
+                    },
+                    {
+                        "value": "0183",
+                        "label": "Sundbyberg"
+                    },
+                    {
+                        "value": "2281",
+                        "label": "Sundsvall"
+                    },
+                    {
+                        "value": "1766",
+                        "label": "Sunne"
+                    },
+                    {
+                        "value": "1907",
+                        "label": "Surahammar"
+                    },
+                    {
+                        "value": "1214",
+                        "label": "Svalöv"
+                    },
+                    {
+                        "value": "1263",
+                        "label": "Svedala"
+                    },
+                    {
+                        "value": "1465",
+                        "label": "Svenljunga"
+                    },
+                    {
+                        "value": "1785",
+                        "label": "Säffle"
+                    },
+                    {
+                        "value": "2082",
+                        "label": "Säter"
+                    },
+                    {
+                        "value": "0684",
+                        "label": "Sävsjö"
+                    },
+                    {
+                        "value": "2182",
+                        "label": "Söderhamn"
+                    },
+                    {
+                        "value": "0582",
+                        "label": "Söderköping"
+                    },
+                    {
+                        "value": "0181",
+                        "label": "Södertälje"
+                    },
+                    {
+                        "value": "1083",
+                        "label": "Sölvesborg"
+                    },
+                    {
+                        "value": "1435",
+                        "label": "Tanum"
+                    },
+                    {
+                        "value": "1472",
+                        "label": "Tibro"
+                    },
+                    {
+                        "value": "1498",
+                        "label": "Tidaholm"
+                    },
+                    {
+                        "value": "0360",
+                        "label": "Tierp"
+                    },
+                    {
+                        "value": "2262",
+                        "label": "Timrå"
+                    },
+                    {
+                        "value": "0763",
+                        "label": "Tingsryd"
+                    },
+                    {
+                        "value": "1419",
+                        "label": "Tjörn"
+                    },
+                    {
+                        "value": "1270",
+                        "label": "Tomelilla"
+                    },
+                    {
+                        "value": "1737",
+                        "label": "Torsby"
+                    },
+                    {
+                        "value": "0834",
+                        "label": "Torsås"
+                    },
+                    {
+                        "value": "1452",
+                        "label": "Tranemo"
+                    },
+                    {
+                        "value": "0687",
+                        "label": "Tranås"
+                    },
+                    {
+                        "value": "1287",
+                        "label": "Trelleborg"
+                    },
+                    {
+                        "value": "1488",
+                        "label": "Trollhättan"
+                    },
+                    {
+                        "value": "0488",
+                        "label": "Trosa"
+                    },
+                    {
+                        "value": "0138",
+                        "label": "Tyresö"
+                    },
+                    {
+                        "value": "0160",
+                        "label": "Täby"
+                    },
+                    {
+                        "value": "1473",
+                        "label": "Töreboda"
+                    },
+                    {
+                        "value": "1485",
+                        "label": "Uddevalla"
+                    },
+                    {
+                        "value": "1491",
+                        "label": "Ulricehamn"
+                    },
+                    {
+                        "value": "2480",
+                        "label": "Umeå"
+                    },
+                    {
+                        "value": "0114",
+                        "label": "Upplands Väsby"
+                    },
+                    {
+                        "value": "0139",
+                        "label": "Upplands-Bro"
+                    },
+                    {
+                        "value": "0380",
+                        "label": "Uppsala"
+                    },
+                    {
+                        "value": "0760",
+                        "label": "Uppvidinge"
+                    },
+                    {
+                        "value": "0584",
+                        "label": "Vadstena"
+                    },
+                    {
+                        "value": "0665",
+                        "label": "Vaggeryd"
+                    },
+                    {
+                        "value": "0563",
+                        "label": "Valdemarsvik"
+                    },
+                    {
+                        "value": "0115",
+                        "label": "Vallentuna"
+                    },
+                    {
+                        "value": "2021",
+                        "label": "Vansbro"
+                    },
+                    {
+                        "value": "1470",
+                        "label": "Vara"
+                    },
+                    {
+                        "value": "1383",
+                        "label": "Varberg"
+                    },
+                    {
+                        "value": "0187",
+                        "label": "Vaxholm"
+                    },
+                    {
+                        "value": "1233",
+                        "label": "Vellinge"
+                    },
+                    {
+                        "value": "0685",
+                        "label": "Vetlanda"
+                    },
+                    {
+                        "value": "2462",
+                        "label": "Vilhelmina"
+                    },
+                    {
+                        "value": "0884",
+                        "label": "Vimmerby"
+                    },
+                    {
+                        "value": "2404",
+                        "label": "Vindeln"
+                    },
+                    {
+                        "value": "0428",
+                        "label": "Vingåker"
+                    },
+                    {
+                        "value": "1442",
+                        "label": "Vårgårda"
+                    },
+                    {
+                        "value": "1487",
+                        "label": "Vänersborg"
+                    },
+                    {
+                        "value": "2460",
+                        "label": "Vännäs"
+                    },
+                    {
+                        "value": "0120",
+                        "label": "Värmdö"
+                    },
+                    {
+                        "value": "0683",
+                        "label": "Värnamo"
+                    },
+                    {
+                        "value": "0883",
+                        "label": "Västervik"
+                    },
+                    {
+                        "value": "1980",
+                        "label": "Västerås"
+                    },
+                    {
+                        "value": "0780",
+                        "label": "Växjö"
+                    },
+                    {
+                        "value": "0512",
+                        "label": "Ydre"
+                    },
+                    {
+                        "value": "1286",
+                        "label": "Ystad"
+                    },
+                    {
+                        "value": "1492",
+                        "label": "Åmål"
+                    },
+                    {
+                        "value": "2260",
+                        "label": "Ånge"
+                    },
+                    {
+                        "value": "2321",
+                        "label": "Åre"
+                    },
+                    {
+                        "value": "1765",
+                        "label": "Årjäng"
+                    },
+                    {
+                        "value": "2463",
+                        "label": "Åsele"
+                    },
+                    {
+                        "value": "1277",
+                        "label": "Åstorp"
+                    },
+                    {
+                        "value": "0561",
+                        "label": "Åtvidaberg"
+                    },
+                    {
+                        "value": "0765",
+                        "label": "Älmhult"
+                    },
+                    {
+                        "value": "2039",
+                        "label": "Älvdalen"
+                    },
+                    {
+                        "value": "0319",
+                        "label": "Älvkarleby"
+                    },
+                    {
+                        "value": "2560",
+                        "label": "Älvsbyn"
+                    },
+                    {
+                        "value": "1292",
+                        "label": "Ängelholm"
+                    },
+                    {
+                        "value": "1407",
+                        "label": "Öckerö"
+                    },
+                    {
+                        "value": "0509",
+                        "label": "Ödeshög"
+                    },
+                    {
+                        "value": "1880",
+                        "label": "Örebro"
+                    },
+                    {
+                        "value": "1257",
+                        "label": "Örkelljunga"
+                    },
+                    {
+                        "value": "2284",
+                        "label": "Örnsköldsvik"
+                    },
+                    {
+                        "value": "2380",
+                        "label": "Östersund"
+                    },
+                    {
+                        "value": "0117",
+                        "label": "Österåker"
+                    },
+                    {
+                        "value": "0382",
+                        "label": "Östhammar"
+                    },
+                    {
+                        "value": "1256",
+                        "label": "Östra Göinge"
+                    },
+                    {
+                        "value": "2513",
+                        "label": "Överkalix"
+                    },
+                    {
+                        "value": "2518",
+                        "label": "Övertorneå"
+                    }
+                ]
+            }
+        },
+        "orientation": {
+            "type": "string",
+            "label": {
+                "en": "Quality",
+                "sv": "Quality"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false,
+            "enum": [
+                "130",
+                "129",
+                "132",
+                "131",
+                "133",
+                "134",
+                "135",
+                "136",
+                "128",
+                "127",
+                "126",
+                "125",
+                "3",
+                "76",
+                "121",
+                "137",
+                "138",
+                "140",
+                "141",
+                "139",
+                "153",
+                "142",
+                "101",
+                "120",
+                "118",
+                "144",
+                "95",
+                "18",
+                "123",
+                "97",
+                "115",
+                "114",
+                "96",
+                "172",
+                "170",
+                "171",
+                "155",
+                "78",
+                "86",
+                "87",
+                "88",
+                "89",
+                "145",
+                "80",
+                "79",
+                "150",
+                "90",
+                "151",
+                "152",
+                "81",
+                "82",
+                "83",
+                "84",
+                "85",
+                "143",
+                "146",
+                "147",
+                "148",
+                "77",
+                "122",
+                "116",
+                "62",
+                "60",
+                "61",
+                "109",
+                "113",
+                "107",
+                "112",
+                "108",
+                "103",
+                "110",
+                "111",
+                "102",
+                "104",
+                "105",
+                "106",
+                "63",
+                "36",
+                "38",
+                "37",
+                "39",
+                "40",
+                "117",
+                "124",
+                "75",
+                "119"
+            ],
+            "options": {
+                "en": [
+                    {
+                        "value": "130",
+                        "label": "AD Göteborg A"
+                    },
+                    {
+                        "value": "129",
+                        "label": "AD Göteborg AA"
+                    },
+                    {
+                        "value": "132",
+                        "label": "AD Malmö A"
+                    },
+                    {
+                        "value": "131",
+                        "label": "AD Malmö AA"
+                    },
+                    {
+                        "value": "133",
+                        "label": "AD Stad 04-10"
+                    },
+                    {
+                        "value": "134",
+                        "label": "AD Stad 11-20"
+                    },
+                    {
+                        "value": "135",
+                        "label": "AD Stad 21-40"
+                    },
+                    {
+                        "value": "136",
+                        "label": "AD Stad 40+"
+                    },
+                    {
+                        "value": "128",
+                        "label": "AD Stockholm A"
+                    },
+                    {
+                        "value": "127",
+                        "label": "AD Stockholm AA"
+                    },
+                    {
+                        "value": "126",
+                        "label": "AD Stockholm AAA"
+                    },
+                    {
+                        "value": "125",
+                        "label": "Adshel"
+                    },
+                    {
+                        "value": "3",
+                        "label": "Affisch T-bana"
+                    },
+                    {
+                        "value": "76",
+                        "label": "Arlanda express"
+                    },
+                    {
+                        "value": "121",
+                        "label": "Baksida"
+                    },
+                    {
+                        "value": "137",
+                        "label": "Folierat Dörrar"
+                    },
+                    {
+                        "value": "138",
+                        "label": "Folierat Pelare"
+                    },
+                    {
+                        "value": "140",
+                        "label": "Folierat Rulltrappa kort"
+                    },
+                    {
+                        "value": "141",
+                        "label": "Folierat Rulltrappa lång"
+                    },
+                    {
+                        "value": "139",
+                        "label": "Folierat Vägg"
+                    },
+                    {
+                        "value": "153",
+                        "label": "Folierat Vägg Hjärtat 85m2"
+                    },
+                    {
+                        "value": "142",
+                        "label": "Folierat Vägg liten"
+                    },
+                    {
+                        "value": "101",
+                        "label": "Folierat övrigt"
+                    },
+                    {
+                        "value": "120",
+                        "label": "Fönsterskylt"
+                    },
+                    {
+                        "value": "118",
+                        "label": "Förarplatsskylt"
+                    },
+                    {
+                        "value": "144",
+                        "label": "Innerstadstavla"
+                    },
+                    {
+                        "value": "95",
+                        "label": "Kundvagnar"
+                    },
+                    {
+                        "value": "18",
+                        "label": "Local Sthlm"
+                    },
+                    {
+                        "value": "123",
+                        "label": "Långsida"
+                    },
+                    {
+                        "value": "97",
+                        "label": "Morelight"
+                    },
+                    {
+                        "value": "115",
+                        "label": "MW E4-Arlanda"
+                    },
+                    {
+                        "value": "114",
+                        "label": "MW Skanstull"
+                    },
+                    {
+                        "value": "96",
+                        "label": "Other"
+                    },
+                    {
+                        "value": "172",
+                        "label": "Platform Odenplan"
+                    },
+                    {
+                        "value": "170",
+                        "label": "Platform Sthlm City Norrgående"
+                    },
+                    {
+                        "value": "171",
+                        "label": "Platform Sthlm City Södergående"
+                    },
+                    {
+                        "value": "155",
+                        "label": "Play"
+                    },
+                    {
+                        "value": "78",
+                        "label": "Play Caroli"
+                    },
+                    {
+                        "value": "86",
+                        "label": "Play Köpcentrum A"
+                    },
+                    {
+                        "value": "87",
+                        "label": "Play Köpcentrum B"
+                    },
+                    {
+                        "value": "88",
+                        "label": "Play Köpcentrum C"
+                    },
+                    {
+                        "value": "89",
+                        "label": "Play Köpcentrum D"
+                    },
+                    {
+                        "value": "145",
+                        "label": "Play Köpcentrum E"
+                    },
+                    {
+                        "value": "80",
+                        "label": "Play Nordstan"
+                    },
+                    {
+                        "value": "79",
+                        "label": "Play Skärholmen"
+                    },
+                    {
+                        "value": "150",
+                        "label": "Play Spectacular Klarabergsviadukten"
+                    },
+                    {
+                        "value": "90",
+                        "label": "Play Spectacular Medborgarplatsen"
+                    },
+                    {
+                        "value": "151",
+                        "label": "Play Spectacular Norra Mellanplanet"
+                    },
+                    {
+                        "value": "152",
+                        "label": "Play Spectacular Odenplan"
+                    },
+                    {
+                        "value": "81",
+                        "label": "Play Stortavla A"
+                    },
+                    {
+                        "value": "82",
+                        "label": "Play Stortavla B"
+                    },
+                    {
+                        "value": "83",
+                        "label": "Play Stortavla C"
+                    },
+                    {
+                        "value": "84",
+                        "label": "Play Stortavla D"
+                    },
+                    {
+                        "value": "85",
+                        "label": "Play Stortavla E"
+                    },
+                    {
+                        "value": "143",
+                        "label": "Play Street A"
+                    },
+                    {
+                        "value": "146",
+                        "label": "Play Street B"
+                    },
+                    {
+                        "value": "147",
+                        "label": "Play Street C"
+                    },
+                    {
+                        "value": "148",
+                        "label": "Play Street D"
+                    },
+                    {
+                        "value": "77",
+                        "label": "Play Transit"
+                    },
+                    {
+                        "value": "122",
+                        "label": "Påstigningssida"
+                    },
+                    {
+                        "value": "116",
+                        "label": "Rulltrappsskylt"
+                    },
+                    {
+                        "value": "62",
+                        "label": "SB 4-20"
+                    },
+                    {
+                        "value": "60",
+                        "label": "SB A01Stockholm"
+                    },
+                    {
+                        "value": "61",
+                        "label": "SB A28 Malmö"
+                    },
+                    {
+                        "value": "109",
+                        "label": "SB Eskilstuna"
+                    },
+                    {
+                        "value": "113",
+                        "label": "SB Fagersta"
+                    },
+                    {
+                        "value": "107",
+                        "label": "SB Helsingborg"
+                    },
+                    {
+                        "value": "112",
+                        "label": "SB Köping"
+                    },
+                    {
+                        "value": "108",
+                        "label": "SB Lund"
+                    },
+                    {
+                        "value": "103",
+                        "label": "SB Malmö"
+                    },
+                    {
+                        "value": "110",
+                        "label": "SB Nyköping"
+                    },
+                    {
+                        "value": "111",
+                        "label": "SB Sala"
+                    },
+                    {
+                        "value": "102",
+                        "label": "SB Stockholm"
+                    },
+                    {
+                        "value": "104",
+                        "label": "SB Uppsala"
+                    },
+                    {
+                        "value": "105",
+                        "label": "SB Västerås"
+                    },
+                    {
+                        "value": "106",
+                        "label": "SB Örebro"
+                    },
+                    {
+                        "value": "63",
+                        "label": "SB övriga landet"
+                    },
+                    {
+                        "value": "36",
+                        "label": "ST A01 Stockholm"
+                    },
+                    {
+                        "value": "38",
+                        "label": "ST A28 Malmö"
+                    },
+                    {
+                        "value": "37",
+                        "label": "ST A33 Göteborg"
+                    },
+                    {
+                        "value": "39",
+                        "label": "ST Municipal 4-20B"
+                    },
+                    {
+                        "value": "40",
+                        "label": "ST Övriga landet"
+                    },
+                    {
+                        "value": "117",
+                        "label": "Streamer"
+                    },
+                    {
+                        "value": "124",
+                        "label": "Superback"
+                    },
+                    {
+                        "value": "75",
+                        "label": "Transit"
+                    },
+                    {
+                        "value": "119",
+                        "label": "Väggskylt"
+                    }
+                ],
+                "sv": [
+                    {
+                        "value": "130",
+                        "label": "AD Göteborg A"
+                    },
+                    {
+                        "value": "129",
+                        "label": "AD Göteborg AA"
+                    },
+                    {
+                        "value": "132",
+                        "label": "AD Malmö A"
+                    },
+                    {
+                        "value": "131",
+                        "label": "AD Malmö AA"
+                    },
+                    {
+                        "value": "133",
+                        "label": "AD Stad 04-10"
+                    },
+                    {
+                        "value": "134",
+                        "label": "AD Stad 11-20"
+                    },
+                    {
+                        "value": "135",
+                        "label": "AD Stad 21-40"
+                    },
+                    {
+                        "value": "136",
+                        "label": "AD Stad 40+"
+                    },
+                    {
+                        "value": "128",
+                        "label": "AD Stockholm A"
+                    },
+                    {
+                        "value": "127",
+                        "label": "AD Stockholm AA"
+                    },
+                    {
+                        "value": "126",
+                        "label": "AD Stockholm AAA"
+                    },
+                    {
+                        "value": "125",
+                        "label": "Adshel"
+                    },
+                    {
+                        "value": "3",
+                        "label": "Affisch T-bana"
+                    },
+                    {
+                        "value": "76",
+                        "label": "Arlanda express"
+                    },
+                    {
+                        "value": "121",
+                        "label": "Baksida"
+                    },
+                    {
+                        "value": "137",
+                        "label": "Folierat Dörrar"
+                    },
+                    {
+                        "value": "138",
+                        "label": "Folierat Pelare"
+                    },
+                    {
+                        "value": "140",
+                        "label": "Folierat Rulltrappa kort"
+                    },
+                    {
+                        "value": "141",
+                        "label": "Folierat Rulltrappa lång"
+                    },
+                    {
+                        "value": "139",
+                        "label": "Folierat Vägg"
+                    },
+                    {
+                        "value": "153",
+                        "label": "Folierat Vägg Hjärtat 85m2"
+                    },
+                    {
+                        "value": "142",
+                        "label": "Folierat Vägg liten"
+                    },
+                    {
+                        "value": "101",
+                        "label": "Folierat övrigt"
+                    },
+                    {
+                        "value": "120",
+                        "label": "Fönsterskylt"
+                    },
+                    {
+                        "value": "118",
+                        "label": "Förarplatsskylt"
+                    },
+                    {
+                        "value": "144",
+                        "label": "Innerstadstavla"
+                    },
+                    {
+                        "value": "95",
+                        "label": "Kundvagnar"
+                    },
+                    {
+                        "value": "18",
+                        "label": "Local Sthlm"
+                    },
+                    {
+                        "value": "123",
+                        "label": "Långsida"
+                    },
+                    {
+                        "value": "97",
+                        "label": "Morelight"
+                    },
+                    {
+                        "value": "115",
+                        "label": "MW E4-Arlanda"
+                    },
+                    {
+                        "value": "114",
+                        "label": "MW Skanstull"
+                    },
+                    {
+                        "value": "96",
+                        "label": "Other"
+                    },
+                    {
+                        "value": "172",
+                        "label": "Platform Odenplan"
+                    },
+                    {
+                        "value": "170",
+                        "label": "Platform Sthlm City Norrgående"
+                    },
+                    {
+                        "value": "171",
+                        "label": "Platform Sthlm City Södergående"
+                    },
+                    {
+                        "value": "155",
+                        "label": "Play"
+                    },
+                    {
+                        "value": "78",
+                        "label": "Play Caroli"
+                    },
+                    {
+                        "value": "86",
+                        "label": "Play Köpcentrum A"
+                    },
+                    {
+                        "value": "87",
+                        "label": "Play Köpcentrum B"
+                    },
+                    {
+                        "value": "88",
+                        "label": "Play Köpcentrum C"
+                    },
+                    {
+                        "value": "89",
+                        "label": "Play Köpcentrum D"
+                    },
+                    {
+                        "value": "145",
+                        "label": "Play Köpcentrum E"
+                    },
+                    {
+                        "value": "80",
+                        "label": "Play Nordstan"
+                    },
+                    {
+                        "value": "79",
+                        "label": "Play Skärholmen"
+                    },
+                    {
+                        "value": "150",
+                        "label": "Play Spectacular Klarabergsviadukten"
+                    },
+                    {
+                        "value": "90",
+                        "label": "Play Spectacular Medborgarplatsen"
+                    },
+                    {
+                        "value": "151",
+                        "label": "Play Spectacular Norra Mellanplanet"
+                    },
+                    {
+                        "value": "152",
+                        "label": "Play Spectacular Odenplan"
+                    },
+                    {
+                        "value": "81",
+                        "label": "Play Stortavla A"
+                    },
+                    {
+                        "value": "82",
+                        "label": "Play Stortavla B"
+                    },
+                    {
+                        "value": "83",
+                        "label": "Play Stortavla C"
+                    },
+                    {
+                        "value": "84",
+                        "label": "Play Stortavla D"
+                    },
+                    {
+                        "value": "85",
+                        "label": "Play Stortavla E"
+                    },
+                    {
+                        "value": "143",
+                        "label": "Play Street A"
+                    },
+                    {
+                        "value": "146",
+                        "label": "Play Street B"
+                    },
+                    {
+                        "value": "147",
+                        "label": "Play Street C"
+                    },
+                    {
+                        "value": "148",
+                        "label": "Play Street D"
+                    },
+                    {
+                        "value": "77",
+                        "label": "Play Transit"
+                    },
+                    {
+                        "value": "122",
+                        "label": "Påstigningssida"
+                    },
+                    {
+                        "value": "116",
+                        "label": "Rulltrappsskylt"
+                    },
+                    {
+                        "value": "62",
+                        "label": "SB 4-20"
+                    },
+                    {
+                        "value": "60",
+                        "label": "SB A01Stockholm"
+                    },
+                    {
+                        "value": "61",
+                        "label": "SB A28 Malmö"
+                    },
+                    {
+                        "value": "109",
+                        "label": "SB Eskilstuna"
+                    },
+                    {
+                        "value": "113",
+                        "label": "SB Fagersta"
+                    },
+                    {
+                        "value": "107",
+                        "label": "SB Helsingborg"
+                    },
+                    {
+                        "value": "112",
+                        "label": "SB Köping"
+                    },
+                    {
+                        "value": "108",
+                        "label": "SB Lund"
+                    },
+                    {
+                        "value": "103",
+                        "label": "SB Malmö"
+                    },
+                    {
+                        "value": "110",
+                        "label": "SB Nyköping"
+                    },
+                    {
+                        "value": "111",
+                        "label": "SB Sala"
+                    },
+                    {
+                        "value": "102",
+                        "label": "SB Stockholm"
+                    },
+                    {
+                        "value": "104",
+                        "label": "SB Uppsala"
+                    },
+                    {
+                        "value": "105",
+                        "label": "SB Västerås"
+                    },
+                    {
+                        "value": "106",
+                        "label": "SB Örebro"
+                    },
+                    {
+                        "value": "63",
+                        "label": "SB övriga landet"
+                    },
+                    {
+                        "value": "36",
+                        "label": "ST A01 Stockholm"
+                    },
+                    {
+                        "value": "38",
+                        "label": "ST A28 Malmö"
+                    },
+                    {
+                        "value": "37",
+                        "label": "ST A33 Göteborg"
+                    },
+                    {
+                        "value": "39",
+                        "label": "ST Municipal 4-20B"
+                    },
+                    {
+                        "value": "40",
+                        "label": "ST Övriga landet"
+                    },
+                    {
+                        "value": "117",
+                        "label": "Streamer"
+                    },
+                    {
+                        "value": "124",
+                        "label": "Superback"
+                    },
+                    {
+                        "value": "75",
+                        "label": "Transit"
+                    },
+                    {
+                        "value": "119",
+                        "label": "Väggskylt"
+                    }
+                ]
+            }
+        },
+        "opCalendar": {
+            "type": "string",
+            "label": {
+                "en": "Op. Calendars ID",
+                "sv": "Op. Calendars ID"
+            },
+            "query": false,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false,
+            "enum": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "43",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "30",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55"
+            ],
+            "options": {
+                "en": [
+                    {
+                        "value": "1",
+                        "label": "TBS Malls Gränby Köpcentrum"
+                    },
+                    {
+                        "value": "2",
+                        "label": "TBS Malls Caroli"
+                    },
+                    {
+                        "value": "3",
+                        "label": "TBS Malls Nordstan"
+                    },
+                    {
+                        "value": "4",
+                        "label": "TBS Malls Mörby"
+                    },
+                    {
+                        "value": "5",
+                        "label": "TBS Malls Domino"
+                    },
+                    {
+                        "value": "6",
+                        "label": "TBS Malls Skärholmen"
+                    },
+                    {
+                        "value": "43",
+                        "label": "TBS Transit Commutertrain"
+                    },
+                    {
+                        "value": "8",
+                        "label": "TBS Malls Nova Lund"
+                    },
+                    {
+                        "value": "9",
+                        "label": "TBS Malls Lindhagenhuset"
+                    },
+                    {
+                        "value": "10",
+                        "label": "TBS Malls Igor Köpcentrum"
+                    },
+                    {
+                        "value": "11",
+                        "label": "TBS Malls Burlöv"
+                    },
+                    {
+                        "value": "12",
+                        "label": "TBS Malls Ringen"
+                    },
+                    {
+                        "value": "13",
+                        "label": "TBS Malls Västermalmsgallerian"
+                    },
+                    {
+                        "value": "14",
+                        "label": "TBS Malls Fältöversten"
+                    },
+                    {
+                        "value": "15",
+                        "label": "TBS Malls S:t Per Köpcentrum"
+                    },
+                    {
+                        "value": "16",
+                        "label": "TBS Malls Stinsen Köpcentrum"
+                    },
+                    {
+                        "value": "17",
+                        "label": "TBS Malls Farsta Centrum"
+                    },
+                    {
+                        "value": "18",
+                        "label": "TBS Malls Kupolen"
+                    },
+                    {
+                        "value": "19",
+                        "label": "TBS Malls Marieberg"
+                    },
+                    {
+                        "value": "30",
+                        "label": "TBS Malls Backaplan"
+                    },
+                    {
+                        "value": "21",
+                        "label": "TBS Malls Allum"
+                    },
+                    {
+                        "value": "22",
+                        "label": "TBS Malls Gallerian Nian"
+                    },
+                    {
+                        "value": "23",
+                        "label": "TBS Malls Center Syd"
+                    },
+                    {
+                        "value": "24",
+                        "label": "TBS Malls Galleria Boulevard"
+                    },
+                    {
+                        "value": "25",
+                        "label": "TBS Malls Emporia"
+                    },
+                    {
+                        "value": "26",
+                        "label": "TBS Transit Subway"
+                    },
+                    {
+                        "value": "27",
+                        "label": "TBS Street"
+                    },
+                    {
+                        "value": "28",
+                        "label": "TBS Billboard"
+                    },
+                    {
+                        "value": "29",
+                        "label": "TBS Spectacular"
+                    },
+                    {
+                        "value": "31",
+                        "label": "TBS Malls City Avenyn"
+                    },
+                    {
+                        "value": "32",
+                        "label": "TBS Malls Cityhuset Eskilstuna"
+                    },
+                    {
+                        "value": "33",
+                        "label": "TBS Malls Ekholmen Centrum"
+                    },
+                    {
+                        "value": "34",
+                        "label": "TBS Malls Frölunda Torg"
+                    },
+                    {
+                        "value": "35",
+                        "label": "TBS Malls Knallerian"
+                    },
+                    {
+                        "value": "36",
+                        "label": "TBS Malls Gallerian Motala"
+                    },
+                    {
+                        "value": "37",
+                        "label": "TBS Malls Odenhuset"
+                    },
+                    {
+                        "value": "38",
+                        "label": "TBS Malls Storknallen"
+                    },
+                    {
+                        "value": "39",
+                        "label": "TBS Malls Valengallerian"
+                    },
+                    {
+                        "value": "40",
+                        "label": "TBS Malls Telgehuset"
+                    },
+                    {
+                        "value": "41",
+                        "label": "TBS Malls Valbo Köpcentrum"
+                    },
+                    {
+                        "value": "42",
+                        "label": "TBS Malls Vårberg Centrum"
+                    },
+                    {
+                        "value": "44",
+                        "label": "TBS Transit Local train"
+                    },
+                    {
+                        "value": "45",
+                        "label": "TBS Malls Birsta City"
+                    },
+                    {
+                        "value": "46",
+                        "label": "TBS Malls Bro Centrum"
+                    },
+                    {
+                        "value": "47",
+                        "label": "TBS Malls Erikslunds Shopping"
+                    },
+                    {
+                        "value": "48",
+                        "label": "TBS Malls Galleria Sala Torg"
+                    },
+                    {
+                        "value": "49",
+                        "label": "TBS Malls Gallerian Västerås"
+                    },
+                    {
+                        "value": "50",
+                        "label": "TBS Malls Hälla Shopping"
+                    },
+                    {
+                        "value": "51",
+                        "label": "TBS Malls Krämaren"
+                    },
+                    {
+                        "value": "52",
+                        "label": "TBS Malls Punkt"
+                    },
+                    {
+                        "value": "53",
+                        "label": "TBS Malls Vågen"
+                    },
+                    {
+                        "value": "54",
+                        "label": "TBS Malls Asecs köpcenter"
+                    },
+                    {
+                        "value": "55",
+                        "label": "TBS Others (Demo)"
+                    }
+                ],
+                "sv": [
+                    {
+                        "value": "1",
+                        "label": "TBS Malls Gränby Köpcentrum"
+                    },
+                    {
+                        "value": "2",
+                        "label": "TBS Malls Caroli"
+                    },
+                    {
+                        "value": "3",
+                        "label": "TBS Malls Nordstan"
+                    },
+                    {
+                        "value": "4",
+                        "label": "TBS Malls Mörby"
+                    },
+                    {
+                        "value": "5",
+                        "label": "TBS Malls Domino"
+                    },
+                    {
+                        "value": "6",
+                        "label": "TBS Malls Skärholmen"
+                    },
+                    {
+                        "value": "43",
+                        "label": "TBS Transit Commutertrain"
+                    },
+                    {
+                        "value": "8",
+                        "label": "TBS Malls Nova Lund"
+                    },
+                    {
+                        "value": "9",
+                        "label": "TBS Malls Lindhagenhuset"
+                    },
+                    {
+                        "value": "10",
+                        "label": "TBS Malls Igor Köpcentrum"
+                    },
+                    {
+                        "value": "11",
+                        "label": "TBS Malls Burlöv"
+                    },
+                    {
+                        "value": "12",
+                        "label": "TBS Malls Ringen"
+                    },
+                    {
+                        "value": "13",
+                        "label": "TBS Malls Västermalmsgallerian"
+                    },
+                    {
+                        "value": "14",
+                        "label": "TBS Malls Fältöversten"
+                    },
+                    {
+                        "value": "15",
+                        "label": "TBS Malls S:t Per Köpcentrum"
+                    },
+                    {
+                        "value": "16",
+                        "label": "TBS Malls Stinsen Köpcentrum"
+                    },
+                    {
+                        "value": "17",
+                        "label": "TBS Malls Farsta Centrum"
+                    },
+                    {
+                        "value": "18",
+                        "label": "TBS Malls Kupolen"
+                    },
+                    {
+                        "value": "19",
+                        "label": "TBS Malls Marieberg"
+                    },
+                    {
+                        "value": "30",
+                        "label": "TBS Malls Backaplan"
+                    },
+                    {
+                        "value": "21",
+                        "label": "TBS Malls Allum"
+                    },
+                    {
+                        "value": "22",
+                        "label": "TBS Malls Gallerian Nian"
+                    },
+                    {
+                        "value": "23",
+                        "label": "TBS Malls Center Syd"
+                    },
+                    {
+                        "value": "24",
+                        "label": "TBS Malls Galleria Boulevard"
+                    },
+                    {
+                        "value": "25",
+                        "label": "TBS Malls Emporia"
+                    },
+                    {
+                        "value": "26",
+                        "label": "TBS Transit Subway"
+                    },
+                    {
+                        "value": "27",
+                        "label": "TBS Street"
+                    },
+                    {
+                        "value": "28",
+                        "label": "TBS Billboard"
+                    },
+                    {
+                        "value": "29",
+                        "label": "TBS Spectacular"
+                    },
+                    {
+                        "value": "31",
+                        "label": "TBS Malls City Avenyn"
+                    },
+                    {
+                        "value": "32",
+                        "label": "TBS Malls Cityhuset Eskilstuna"
+                    },
+                    {
+                        "value": "33",
+                        "label": "TBS Malls Ekholmen Centrum"
+                    },
+                    {
+                        "value": "34",
+                        "label": "TBS Malls Frölunda Torg"
+                    },
+                    {
+                        "value": "35",
+                        "label": "TBS Malls Knallerian"
+                    },
+                    {
+                        "value": "36",
+                        "label": "TBS Malls Gallerian Motala"
+                    },
+                    {
+                        "value": "37",
+                        "label": "TBS Malls Odenhuset"
+                    },
+                    {
+                        "value": "38",
+                        "label": "TBS Malls Storknallen"
+                    },
+                    {
+                        "value": "39",
+                        "label": "TBS Malls Valengallerian"
+                    },
+                    {
+                        "value": "40",
+                        "label": "TBS Malls Telgehuset"
+                    },
+                    {
+                        "value": "41",
+                        "label": "TBS Malls Valbo Köpcentrum"
+                    },
+                    {
+                        "value": "42",
+                        "label": "TBS Malls Vårberg Centrum"
+                    },
+                    {
+                        "value": "44",
+                        "label": "TBS Transit Local train"
+                    },
+                    {
+                        "value": "45",
+                        "label": "TBS Malls Birsta City"
+                    },
+                    {
+                        "value": "46",
+                        "label": "TBS Malls Bro Centrum"
+                    },
+                    {
+                        "value": "47",
+                        "label": "TBS Malls Erikslunds Shopping"
+                    },
+                    {
+                        "value": "48",
+                        "label": "TBS Malls Galleria Sala Torg"
+                    },
+                    {
+                        "value": "49",
+                        "label": "TBS Malls Gallerian Västerås"
+                    },
+                    {
+                        "value": "50",
+                        "label": "TBS Malls Hälla Shopping"
+                    },
+                    {
+                        "value": "51",
+                        "label": "TBS Malls Krämaren"
+                    },
+                    {
+                        "value": "52",
+                        "label": "TBS Malls Punkt"
+                    },
+                    {
+                        "value": "53",
+                        "label": "TBS Malls Vågen"
+                    },
+                    {
+                        "value": "54",
+                        "label": "TBS Malls Asecs köpcenter"
+                    },
+                    {
+                        "value": "55",
+                        "label": "TBS Others (Demo)"
+                    }
+                ]
+            }
+        },
+        "quality": {
+            "type": "string",
+            "label": {
+                "en": "Orientation",
+                "sv": "Orientation"
+            },
+            "query": true,
+            "readonly": true,
+            "mandatory": false,
+            "modify": false,
+            "enum": [
+                "SR22",
+                "KC4",
+                "TB1",
+                "KC47",
+                "KC37",
+                "TB35",
+                "SR1",
+                "SR30",
+                "KC38",
+                "KC39",
+                "TB2",
+                "SR42",
+                "KC12",
+                "KC5",
+                "SPE3",
+                "SPE1",
+                "SPE2",
+                "TB46",
+                "TB47",
+                "KC13",
+                "KC6",
+                "KC29",
+                "TB3",
+                "SR43",
+                "SR26",
+                "KC35",
+                "KC7",
+                "KC40",
+                "KC1\r",
+                "TB4",
+                "TB5",
+                "KC27",
+                "KC8",
+                "KC14",
+                "KC15",
+                "KC41",
+                "KC19",
+                "KC42",
+                "TB36",
+                "TB37",
+                "KC16",
+                "TB6",
+                "SR2",
+                "SR38",
+                "TB38",
+                "SR34",
+                "SR35",
+                "TB7",
+                "KC43",
+                "TB8",
+                "SR49",
+                "TB39",
+                "SR15",
+                "TB9",
+                "SR37",
+                "SR41",
+                "SR18",
+                "TB10",
+                "SR48",
+                "SR44",
+                "KC34",
+                "KC44",
+                "SR45",
+                "SR3",
+                "SR25",
+                "TB11",
+                "KC17",
+                "KC18",
+                "SR36",
+                "TB12",
+                "KC20",
+                "SR4",
+                "SR27",
+                "TB13",
+                "KC21",
+                "TB14",
+                "KC36",
+                "SR5",
+                "KC9",
+                "TB15",
+                "KC2",
+                "SR17",
+                "KC22",
+                "KC32",
+                "TB16",
+                "SR6",
+                "OT1",
+                "PW1",
+                "PW2",
+                "PW3",
+                "PW4",
+                "KC45",
+                "SR21",
+                "SR7",
+                "KC10",
+                "SR14",
+                "TB17",
+                "SR20",
+                "SR40",
+                "TB18",
+                "SR39",
+                "SR46",
+                "TB19",
+                "SR16",
+                "TB20",
+                "KC23",
+                "SR8",
+                "TB21",
+                "KC3",
+                "TB22",
+                "TB23",
+                "TB24",
+                "TB25",
+                "TB26",
+                "TB40",
+                "KC24",
+                "SR29",
+                "KC33",
+                "SR23",
+                "SR28",
+                "TB27",
+                "SR9",
+                "SR10",
+                "SR11",
+                "TB41",
+                "TB28",
+                "SR12",
+                "TB29",
+                "TB30",
+                "KC31",
+                "KC25",
+                "SR47",
+                "TB31",
+                "TB42",
+                "SR32",
+                "SR33",
+                "SR31",
+                "KC28",
+                "KC26",
+                "SR19",
+                "SR13",
+                "SR24",
+                "KC46",
+                "KC30",
+                "KC11",
+                "TB32",
+                "TB43",
+                "TB44",
+                "TB33",
+                "TB34",
+                "TB45"
+            ],
+            "options": {
+                "en": [
+                    {
+                        "value": "SR22",
+                        "label": "Allmänna Gränd"
+                    },
+                    {
+                        "value": "KC4",
+                        "label": "Allum Köpcentrum "
+                    },
+                    {
+                        "value": "TB1",
+                        "label": "Alvik T-bana"
+                    },
+                    {
+                        "value": "KC47",
+                        "label": "Asecs Köpcenter"
+                    },
+                    {
+                        "value": "KC37",
+                        "label": "Backaplan"
+                    },
+                    {
+                        "value": "TB35",
+                        "label": "Barkarby P"
+                    },
+                    {
+                        "value": "SR1",
+                        "label": "Birger Jarlsgatan 12"
+                    },
+                    {
+                        "value": "SR30",
+                        "label": "Birger Jarlsgatan 88"
+                    },
+                    {
+                        "value": "KC38",
+                        "label": "Birsta City"
+                    },
+                    {
+                        "value": "KC39",
+                        "label": "Bro Centrum"
+                    },
+                    {
+                        "value": "TB2",
+                        "label": "Brommaplan T-bana"
+                    },
+                    {
+                        "value": "SR42",
+                        "label": "Bruksgatan/Prästgatan"
+                    },
+                    {
+                        "value": "KC12",
+                        "label": "Burlöv Center "
+                    },
+                    {
+                        "value": "KC5",
+                        "label": "Caroli City "
+                    },
+                    {
+                        "value": "SPE3",
+                        "label": "CB Spectacular City"
+                    },
+                    {
+                        "value": "SPE1",
+                        "label": "CB Spectacular City Curve"
+                    },
+                    {
+                        "value": "SPE2",
+                        "label": "CB Spectacular Odenplan"
+                    },
+                    {
+                        "value": "TB46",
+                        "label": "CB Station City"
+                    },
+                    {
+                        "value": "TB47",
+                        "label": "CB Station Odenplan"
+                    },
+                    {
+                        "value": "KC13",
+                        "label": "Center Syd "
+                    },
+                    {
+                        "value": "KC6",
+                        "label": "City Avenyn Göteborg"
+                    },
+                    {
+                        "value": "KC29",
+                        "label": "Cityhuset"
+                    },
+                    {
+                        "value": "TB3",
+                        "label": "Danderyds Sjukhus T-bana"
+                    },
+                    {
+                        "value": "SR43",
+                        "label": "Drottninggatan/Hälsogatan"
+                    },
+                    {
+                        "value": "SR26",
+                        "label": "Drottningholmsvägen 13"
+                    },
+                    {
+                        "value": "KC35",
+                        "label": "Ekholmen"
+                    },
+                    {
+                        "value": "KC7",
+                        "label": "Emporia "
+                    },
+                    {
+                        "value": "KC40",
+                        "label": "Erikslund Shopping"
+                    },
+                    {
+                        "value": "KC1\r",
+                        "label": "Farsta Centrum"
+                    },
+                    {
+                        "value": "TB4",
+                        "label": "Farsta Centrum T-bana"
+                    },
+                    {
+                        "value": "TB5",
+                        "label": "Fridhemsplan T-bana"
+                    },
+                    {
+                        "value": "KC27",
+                        "label": "Frölunda Torg"
+                    },
+                    {
+                        "value": "KC8",
+                        "label": "Fältöversten "
+                    },
+                    {
+                        "value": "KC14",
+                        "label": "Galleria Boulevard"
+                    },
+                    {
+                        "value": "KC15",
+                        "label": "Galleria Domino"
+                    },
+                    {
+                        "value": "KC41",
+                        "label": "Galleria Sala Torg"
+                    },
+                    {
+                        "value": "KC19",
+                        "label": "Gallerian Nian"
+                    },
+                    {
+                        "value": "KC42",
+                        "label": "Gallerian Västerås"
+                    },
+                    {
+                        "value": "TB36",
+                        "label": "Gamla Stan T-bana"
+                    },
+                    {
+                        "value": "TB37",
+                        "label": "Globen Tvärbana"
+                    },
+                    {
+                        "value": "KC16",
+                        "label": "Gränby Centrum "
+                    },
+                    {
+                        "value": "TB6",
+                        "label": "Gullmarsplan T-bana"
+                    },
+                    {
+                        "value": "SR2",
+                        "label": "Götgatan 45 -Medborgarplatsen"
+                    },
+                    {
+                        "value": "SR38",
+                        "label": "Hammarbyvägen 16"
+                    },
+                    {
+                        "value": "TB38",
+                        "label": "Handen P"
+                    },
+                    {
+                        "value": "SR34",
+                        "label": "Hbg Carl Crooks  gata/GAT"
+                    },
+                    {
+                        "value": "SR35",
+                        "label": "Hbg Carl Crooks  gata/Wetterlingsg"
+                    },
+                    {
+                        "value": "TB7",
+                        "label": "Hornstull T-bana"
+                    },
+                    {
+                        "value": "KC43",
+                        "label": "Hälla Shopping"
+                    },
+                    {
+                        "value": "TB8",
+                        "label": "Hötorget T-bana"
+                    },
+                    {
+                        "value": "SR49",
+                        "label": "Järnvägsgatan - Helsingborgs C"
+                    },
+                    {
+                        "value": "TB39",
+                        "label": "Kallhäll P"
+                    },
+                    {
+                        "value": "SR15",
+                        "label": "Karlaplan 13"
+                    },
+                    {
+                        "value": "TB9",
+                        "label": "Karlaplan T-bana"
+                    },
+                    {
+                        "value": "SR37",
+                        "label": "Karlav/Engelbrektsg/Runebergsplan"
+                    },
+                    {
+                        "value": "SR41",
+                        "label": "Karlbergsgatan 38"
+                    },
+                    {
+                        "value": "SR18",
+                        "label": "Karlbergsvägen 38"
+                    },
+                    {
+                        "value": "TB10",
+                        "label": "Kista Centrum T-bana"
+                    },
+                    {
+                        "value": "SR48",
+                        "label": "Kistagången 12"
+                    },
+                    {
+                        "value": "SR44",
+                        "label": "Klarastrandsleden"
+                    },
+                    {
+                        "value": "KC34",
+                        "label": "Knallerian"
+                    },
+                    {
+                        "value": "KC44",
+                        "label": "Krämaren"
+                    },
+                    {
+                        "value": "SR45",
+                        "label": "Kullagatan/Långvinkelg"
+                    },
+                    {
+                        "value": "SR3",
+                        "label": "Kungsgatan 24"
+                    },
+                    {
+                        "value": "SR25",
+                        "label": "Kungsholmstorg"
+                    },
+                    {
+                        "value": "TB11",
+                        "label": "Kungsträdgården T-bana"
+                    },
+                    {
+                        "value": "KC17",
+                        "label": "Kupolen Köpcentrum "
+                    },
+                    {
+                        "value": "KC18",
+                        "label": "Kvarteret Igor "
+                    },
+                    {
+                        "value": "SR36",
+                        "label": "Lidingövägen/Erik -Dahlbergsg"
+                    },
+                    {
+                        "value": "TB12",
+                        "label": "Liljeholmen T-bana"
+                    },
+                    {
+                        "value": "KC20",
+                        "label": "Lindhagen "
+                    },
+                    {
+                        "value": "SR4",
+                        "label": "Lindhagensgatan under Essingeleden"
+                    },
+                    {
+                        "value": "SR27",
+                        "label": "Mariatorget 7"
+                    },
+                    {
+                        "value": "TB13",
+                        "label": "Mariatorget T-bana"
+                    },
+                    {
+                        "value": "KC21",
+                        "label": "Marieberg Galleria"
+                    },
+                    {
+                        "value": "TB14",
+                        "label": "Medborgarplatsen T-bana"
+                    },
+                    {
+                        "value": "KC36",
+                        "label": "Motala Gallerian"
+                    },
+                    {
+                        "value": "SR5",
+                        "label": "Munkbroleden 10"
+                    },
+                    {
+                        "value": "KC9",
+                        "label": "Mörby Centrum "
+                    },
+                    {
+                        "value": "TB15",
+                        "label": "Mörby Centrum T-bana"
+                    },
+                    {
+                        "value": "KC2",
+                        "label": "Nordstan "
+                    },
+                    {
+                        "value": "SR17",
+                        "label": "Norrmalmstorg"
+                    },
+                    {
+                        "value": "KC22",
+                        "label": "Nova Lund"
+                    },
+                    {
+                        "value": "KC32",
+                        "label": "Odenhuset"
+                    },
+                    {
+                        "value": "TB16",
+                        "label": "Odenplan T-bana"
+                    },
+                    {
+                        "value": "SR6",
+                        "label": "Odenplan vid Norrtullsgatan"
+                    },
+                    {
+                        "value": "OT1",
+                        "label": "Other"
+                    },
+                    {
+                        "value": "PW1",
+                        "label": "Platform wall 1"
+                    },
+                    {
+                        "value": "PW2",
+                        "label": "Platform wall 2"
+                    },
+                    {
+                        "value": "PW3",
+                        "label": "Platform wall 3"
+                    },
+                    {
+                        "value": "PW4",
+                        "label": "Platform wall 4"
+                    },
+                    {
+                        "value": "KC45",
+                        "label": "Punkt"
+                    },
+                    {
+                        "value": "SR21",
+                        "label": "Raoul Wallenbergs Torg"
+                    },
+                    {
+                        "value": "SR7",
+                        "label": "Renstiernas Gata  18"
+                    },
+                    {
+                        "value": "KC10",
+                        "label": "Ringen Köpcentrum"
+                    },
+                    {
+                        "value": "SR14",
+                        "label": "Ringvägen 138"
+                    },
+                    {
+                        "value": "TB17",
+                        "label": "Ropsten T-bana"
+                    },
+                    {
+                        "value": "SR20",
+                        "label": "Ropstens T-banestation"
+                    },
+                    {
+                        "value": "SR40",
+                        "label": "Runebergsgatan 2/Erikbergsplan"
+                    },
+                    {
+                        "value": "TB18",
+                        "label": "Rådhuset T-bana"
+                    },
+                    {
+                        "value": "SR39",
+                        "label": "Rådmansgatan 12/ Karlavägen"
+                    },
+                    {
+                        "value": "SR46",
+                        "label": "Rådmansgatan 2"
+                    },
+                    {
+                        "value": "TB19",
+                        "label": "Rådmansgatan T-bana"
+                    },
+                    {
+                        "value": "SR16",
+                        "label": "Rålambsvägen 7 Gjörwellsgatan"
+                    },
+                    {
+                        "value": "TB20",
+                        "label": "S:t Eriksplan T-bana"
+                    },
+                    {
+                        "value": "KC23",
+                        "label": "S:t Per"
+                    },
+                    {
+                        "value": "SR8",
+                        "label": "Sankt Eriksplan 6 C"
+                    },
+                    {
+                        "value": "TB21",
+                        "label": "Skanstull T-bana"
+                    },
+                    {
+                        "value": "KC3",
+                        "label": "Skärholmen Centrum "
+                    },
+                    {
+                        "value": "TB22",
+                        "label": "Skärholmen T-bana"
+                    },
+                    {
+                        "value": "TB23",
+                        "label": "Slussen T-bana"
+                    },
+                    {
+                        "value": "TB24",
+                        "label": "Solna Centrum T-bana"
+                    },
+                    {
+                        "value": "TB25",
+                        "label": "Stadion T-bana"
+                    },
+                    {
+                        "value": "TB26",
+                        "label": "Stadshagen T-bana"
+                    },
+                    {
+                        "value": "TB40",
+                        "label": "Station Sthlm City"
+                    },
+                    {
+                        "value": "KC24",
+                        "label": "Stinsen"
+                    },
+                    {
+                        "value": "SR29",
+                        "label": "Stora Wäsby gård"
+                    },
+                    {
+                        "value": "KC33",
+                        "label": "Storknallen"
+                    },
+                    {
+                        "value": "SR23",
+                        "label": "Strandvägen m e 56"
+                    },
+                    {
+                        "value": "SR28",
+                        "label": "Sturegatan  19"
+                    },
+                    {
+                        "value": "TB27",
+                        "label": "Sundbyberg T-bana"
+                    },
+                    {
+                        "value": "SR9",
+                        "label": "Sveavägen 110"
+                    },
+                    {
+                        "value": "SR10",
+                        "label": "Sveavägen 29"
+                    },
+                    {
+                        "value": "SR11",
+                        "label": "Sveavägen 31"
+                    },
+                    {
+                        "value": "TB41",
+                        "label": "Södertälje P"
+                    },
+                    {
+                        "value": "TB28",
+                        "label": "T-centralen"
+                    },
+                    {
+                        "value": "SR12",
+                        "label": "Tegelbacken 6"
+                    },
+                    {
+                        "value": "TB29",
+                        "label": "Tekniska högskolan T-bana"
+                    },
+                    {
+                        "value": "TB30",
+                        "label": "Telefonplan T-bana"
+                    },
+                    {
+                        "value": "KC31",
+                        "label": "Telgehuset"
+                    },
+                    {
+                        "value": "KC25",
+                        "label": "Torp Köpcentrum"
+                    },
+                    {
+                        "value": "SR47",
+                        "label": "Torsgatan/S:T Eriksplan"
+                    },
+                    {
+                        "value": "TB31",
+                        "label": "Universitetet T-bana"
+                    },
+                    {
+                        "value": "TB42",
+                        "label": "Upplands-Väsby P"
+                    },
+                    {
+                        "value": "SR32",
+                        "label": "V-ås  Stora Gatan-Källgatan"
+                    },
+                    {
+                        "value": "SR33",
+                        "label": "V-ås Stora Gatan-Vasagatan"
+                    },
+                    {
+                        "value": "SR31",
+                        "label": "V-ås Sturegatan"
+                    },
+                    {
+                        "value": "KC28",
+                        "label": "Valbo Köpcentrum"
+                    },
+                    {
+                        "value": "KC26",
+                        "label": "Valengallerian"
+                    },
+                    {
+                        "value": "SR19",
+                        "label": "Valhallavägen 77 B Tekniska Högskolan T"
+                    },
+                    {
+                        "value": "SR13",
+                        "label": "Vasagatan 11"
+                    },
+                    {
+                        "value": "SR24",
+                        "label": "Vasagatan 4"
+                    },
+                    {
+                        "value": "KC46",
+                        "label": "Vågen"
+                    },
+                    {
+                        "value": "KC30",
+                        "label": "Vårberg Centrum"
+                    },
+                    {
+                        "value": "KC11",
+                        "label": "Västermalmsgallerian"
+                    },
+                    {
+                        "value": "TB32",
+                        "label": "Zinkensdamm T-bana"
+                    },
+                    {
+                        "value": "TB43",
+                        "label": "Årstaberg P"
+                    },
+                    {
+                        "value": "TB44",
+                        "label": "Älvsjö P"
+                    },
+                    {
+                        "value": "TB33",
+                        "label": "Östermalmstorg T-bana"
+                    },
+                    {
+                        "value": "TB34",
+                        "label": "Östermalmstorg T-bana LED (3456 x 1920 mm)"
+                    },
+                    {
+                        "value": "TB45",
+                        "label": "Östra Station"
+                    }
+                ],
+                "sv": [
+                    {
+                        "value": "SR22",
+                        "label": "Allmänna Gränd"
+                    },
+                    {
+                        "value": "KC4",
+                        "label": "Allum Köpcentrum "
+                    },
+                    {
+                        "value": "TB1",
+                        "label": "Alvik T-bana"
+                    },
+                    {
+                        "value": "KC47",
+                        "label": "Asecs Köpcenter"
+                    },
+                    {
+                        "value": "KC37",
+                        "label": "Backaplan"
+                    },
+                    {
+                        "value": "TB35",
+                        "label": "Barkarby P"
+                    },
+                    {
+                        "value": "SR1",
+                        "label": "Birger Jarlsgatan 12"
+                    },
+                    {
+                        "value": "SR30",
+                        "label": "Birger Jarlsgatan 88"
+                    },
+                    {
+                        "value": "KC38",
+                        "label": "Birsta City"
+                    },
+                    {
+                        "value": "KC39",
+                        "label": "Bro Centrum"
+                    },
+                    {
+                        "value": "TB2",
+                        "label": "Brommaplan T-bana"
+                    },
+                    {
+                        "value": "SR42",
+                        "label": "Bruksgatan/Prästgatan"
+                    },
+                    {
+                        "value": "KC12",
+                        "label": "Burlöv Center "
+                    },
+                    {
+                        "value": "KC5",
+                        "label": "Caroli City "
+                    },
+                    {
+                        "value": "SPE3",
+                        "label": "CB Spectacular City"
+                    },
+                    {
+                        "value": "SPE1",
+                        "label": "CB Spectacular City Curve"
+                    },
+                    {
+                        "value": "SPE2",
+                        "label": "CB Spectacular Odenplan"
+                    },
+                    {
+                        "value": "TB46",
+                        "label": "CB Station City"
+                    },
+                    {
+                        "value": "TB47",
+                        "label": "CB Station Odenplan"
+                    },
+                    {
+                        "value": "KC13",
+                        "label": "Center Syd "
+                    },
+                    {
+                        "value": "KC6",
+                        "label": "City Avenyn Göteborg"
+                    },
+                    {
+                        "value": "KC29",
+                        "label": "Cityhuset"
+                    },
+                    {
+                        "value": "TB3",
+                        "label": "Danderyds Sjukhus T-bana"
+                    },
+                    {
+                        "value": "SR43",
+                        "label": "Drottninggatan/Hälsogatan"
+                    },
+                    {
+                        "value": "SR26",
+                        "label": "Drottningholmsvägen 13"
+                    },
+                    {
+                        "value": "KC35",
+                        "label": "Ekholmen"
+                    },
+                    {
+                        "value": "KC7",
+                        "label": "Emporia "
+                    },
+                    {
+                        "value": "KC40",
+                        "label": "Erikslund Shopping"
+                    },
+                    {
+                        "value": "KC1\r",
+                        "label": "Farsta Centrum"
+                    },
+                    {
+                        "value": "TB4",
+                        "label": "Farsta Centrum T-bana"
+                    },
+                    {
+                        "value": "TB5",
+                        "label": "Fridhemsplan T-bana"
+                    },
+                    {
+                        "value": "KC27",
+                        "label": "Frölunda Torg"
+                    },
+                    {
+                        "value": "KC8",
+                        "label": "Fältöversten "
+                    },
+                    {
+                        "value": "KC14",
+                        "label": "Galleria Boulevard"
+                    },
+                    {
+                        "value": "KC15",
+                        "label": "Galleria Domino"
+                    },
+                    {
+                        "value": "KC41",
+                        "label": "Galleria Sala Torg"
+                    },
+                    {
+                        "value": "KC19",
+                        "label": "Gallerian Nian"
+                    },
+                    {
+                        "value": "KC42",
+                        "label": "Gallerian Västerås"
+                    },
+                    {
+                        "value": "TB36",
+                        "label": "Gamla Stan T-bana"
+                    },
+                    {
+                        "value": "TB37",
+                        "label": "Globen Tvärbana"
+                    },
+                    {
+                        "value": "KC16",
+                        "label": "Gränby Centrum "
+                    },
+                    {
+                        "value": "TB6",
+                        "label": "Gullmarsplan T-bana"
+                    },
+                    {
+                        "value": "SR2",
+                        "label": "Götgatan 45 -Medborgarplatsen"
+                    },
+                    {
+                        "value": "SR38",
+                        "label": "Hammarbyvägen 16"
+                    },
+                    {
+                        "value": "TB38",
+                        "label": "Handen P"
+                    },
+                    {
+                        "value": "SR34",
+                        "label": "Hbg Carl Crooks  gata/GAT"
+                    },
+                    {
+                        "value": "SR35",
+                        "label": "Hbg Carl Crooks  gata/Wetterlingsg"
+                    },
+                    {
+                        "value": "TB7",
+                        "label": "Hornstull T-bana"
+                    },
+                    {
+                        "value": "KC43",
+                        "label": "Hälla Shopping"
+                    },
+                    {
+                        "value": "TB8",
+                        "label": "Hötorget T-bana"
+                    },
+                    {
+                        "value": "SR49",
+                        "label": "Järnvägsgatan - Helsingborgs C"
+                    },
+                    {
+                        "value": "TB39",
+                        "label": "Kallhäll P"
+                    },
+                    {
+                        "value": "SR15",
+                        "label": "Karlaplan 13"
+                    },
+                    {
+                        "value": "TB9",
+                        "label": "Karlaplan T-bana"
+                    },
+                    {
+                        "value": "SR37",
+                        "label": "Karlav/Engelbrektsg/Runebergsplan"
+                    },
+                    {
+                        "value": "SR41",
+                        "label": "Karlbergsgatan 38"
+                    },
+                    {
+                        "value": "SR18",
+                        "label": "Karlbergsvägen 38"
+                    },
+                    {
+                        "value": "TB10",
+                        "label": "Kista Centrum T-bana"
+                    },
+                    {
+                        "value": "SR48",
+                        "label": "Kistagången 12"
+                    },
+                    {
+                        "value": "SR44",
+                        "label": "Klarastrandsleden"
+                    },
+                    {
+                        "value": "KC34",
+                        "label": "Knallerian"
+                    },
+                    {
+                        "value": "KC44",
+                        "label": "Krämaren"
+                    },
+                    {
+                        "value": "SR45",
+                        "label": "Kullagatan/Långvinkelg"
+                    },
+                    {
+                        "value": "SR3",
+                        "label": "Kungsgatan 24"
+                    },
+                    {
+                        "value": "SR25",
+                        "label": "Kungsholmstorg"
+                    },
+                    {
+                        "value": "TB11",
+                        "label": "Kungsträdgården T-bana"
+                    },
+                    {
+                        "value": "KC17",
+                        "label": "Kupolen Köpcentrum "
+                    },
+                    {
+                        "value": "KC18",
+                        "label": "Kvarteret Igor "
+                    },
+                    {
+                        "value": "SR36",
+                        "label": "Lidingövägen/Erik -Dahlbergsg"
+                    },
+                    {
+                        "value": "TB12",
+                        "label": "Liljeholmen T-bana"
+                    },
+                    {
+                        "value": "KC20",
+                        "label": "Lindhagen "
+                    },
+                    {
+                        "value": "SR4",
+                        "label": "Lindhagensgatan under Essingeleden"
+                    },
+                    {
+                        "value": "SR27",
+                        "label": "Mariatorget 7"
+                    },
+                    {
+                        "value": "TB13",
+                        "label": "Mariatorget T-bana"
+                    },
+                    {
+                        "value": "KC21",
+                        "label": "Marieberg Galleria"
+                    },
+                    {
+                        "value": "TB14",
+                        "label": "Medborgarplatsen T-bana"
+                    },
+                    {
+                        "value": "KC36",
+                        "label": "Motala Gallerian"
+                    },
+                    {
+                        "value": "SR5",
+                        "label": "Munkbroleden 10"
+                    },
+                    {
+                        "value": "KC9",
+                        "label": "Mörby Centrum "
+                    },
+                    {
+                        "value": "TB15",
+                        "label": "Mörby Centrum T-bana"
+                    },
+                    {
+                        "value": "KC2",
+                        "label": "Nordstan "
+                    },
+                    {
+                        "value": "SR17",
+                        "label": "Norrmalmstorg"
+                    },
+                    {
+                        "value": "KC22",
+                        "label": "Nova Lund"
+                    },
+                    {
+                        "value": "KC32",
+                        "label": "Odenhuset"
+                    },
+                    {
+                        "value": "TB16",
+                        "label": "Odenplan T-bana"
+                    },
+                    {
+                        "value": "SR6",
+                        "label": "Odenplan vid Norrtullsgatan"
+                    },
+                    {
+                        "value": "OT1",
+                        "label": "Other"
+                    },
+                    {
+                        "value": "PW1",
+                        "label": "Platform wall 1"
+                    },
+                    {
+                        "value": "PW2",
+                        "label": "Platform wall 2"
+                    },
+                    {
+                        "value": "PW3",
+                        "label": "Platform wall 3"
+                    },
+                    {
+                        "value": "PW4",
+                        "label": "Platform wall 4"
+                    },
+                    {
+                        "value": "KC45",
+                        "label": "Punkt"
+                    },
+                    {
+                        "value": "SR21",
+                        "label": "Raoul Wallenbergs Torg"
+                    },
+                    {
+                        "value": "SR7",
+                        "label": "Renstiernas Gata  18"
+                    },
+                    {
+                        "value": "KC10",
+                        "label": "Ringen Köpcentrum"
+                    },
+                    {
+                        "value": "SR14",
+                        "label": "Ringvägen 138"
+                    },
+                    {
+                        "value": "TB17",
+                        "label": "Ropsten T-bana"
+                    },
+                    {
+                        "value": "SR20",
+                        "label": "Ropstens T-banestation"
+                    },
+                    {
+                        "value": "SR40",
+                        "label": "Runebergsgatan 2/Erikbergsplan"
+                    },
+                    {
+                        "value": "TB18",
+                        "label": "Rådhuset T-bana"
+                    },
+                    {
+                        "value": "SR39",
+                        "label": "Rådmansgatan 12/ Karlavägen"
+                    },
+                    {
+                        "value": "SR46",
+                        "label": "Rådmansgatan 2"
+                    },
+                    {
+                        "value": "TB19",
+                        "label": "Rådmansgatan T-bana"
+                    },
+                    {
+                        "value": "SR16",
+                        "label": "Rålambsvägen 7 Gjörwellsgatan"
+                    },
+                    {
+                        "value": "TB20",
+                        "label": "S:t Eriksplan T-bana"
+                    },
+                    {
+                        "value": "KC23",
+                        "label": "S:t Per"
+                    },
+                    {
+                        "value": "SR8",
+                        "label": "Sankt Eriksplan 6 C"
+                    },
+                    {
+                        "value": "TB21",
+                        "label": "Skanstull T-bana"
+                    },
+                    {
+                        "value": "KC3",
+                        "label": "Skärholmen Centrum "
+                    },
+                    {
+                        "value": "TB22",
+                        "label": "Skärholmen T-bana"
+                    },
+                    {
+                        "value": "TB23",
+                        "label": "Slussen T-bana"
+                    },
+                    {
+                        "value": "TB24",
+                        "label": "Solna Centrum T-bana"
+                    },
+                    {
+                        "value": "TB25",
+                        "label": "Stadion T-bana"
+                    },
+                    {
+                        "value": "TB26",
+                        "label": "Stadshagen T-bana"
+                    },
+                    {
+                        "value": "TB40",
+                        "label": "Station Sthlm City"
+                    },
+                    {
+                        "value": "KC24",
+                        "label": "Stinsen"
+                    },
+                    {
+                        "value": "SR29",
+                        "label": "Stora Wäsby gård"
+                    },
+                    {
+                        "value": "KC33",
+                        "label": "Storknallen"
+                    },
+                    {
+                        "value": "SR23",
+                        "label": "Strandvägen m e 56"
+                    },
+                    {
+                        "value": "SR28",
+                        "label": "Sturegatan  19"
+                    },
+                    {
+                        "value": "TB27",
+                        "label": "Sundbyberg T-bana"
+                    },
+                    {
+                        "value": "SR9",
+                        "label": "Sveavägen 110"
+                    },
+                    {
+                        "value": "SR10",
+                        "label": "Sveavägen 29"
+                    },
+                    {
+                        "value": "SR11",
+                        "label": "Sveavägen 31"
+                    },
+                    {
+                        "value": "TB41",
+                        "label": "Södertälje P"
+                    },
+                    {
+                        "value": "TB28",
+                        "label": "T-centralen"
+                    },
+                    {
+                        "value": "SR12",
+                        "label": "Tegelbacken 6"
+                    },
+                    {
+                        "value": "TB29",
+                        "label": "Tekniska högskolan T-bana"
+                    },
+                    {
+                        "value": "TB30",
+                        "label": "Telefonplan T-bana"
+                    },
+                    {
+                        "value": "KC31",
+                        "label": "Telgehuset"
+                    },
+                    {
+                        "value": "KC25",
+                        "label": "Torp Köpcentrum"
+                    },
+                    {
+                        "value": "SR47",
+                        "label": "Torsgatan/S:T Eriksplan"
+                    },
+                    {
+                        "value": "TB31",
+                        "label": "Universitetet T-bana"
+                    },
+                    {
+                        "value": "TB42",
+                        "label": "Upplands-Väsby P"
+                    },
+                    {
+                        "value": "SR32",
+                        "label": "V-ås  Stora Gatan-Källgatan"
+                    },
+                    {
+                        "value": "SR33",
+                        "label": "V-ås Stora Gatan-Vasagatan"
+                    },
+                    {
+                        "value": "SR31",
+                        "label": "V-ås Sturegatan"
+                    },
+                    {
+                        "value": "KC28",
+                        "label": "Valbo Köpcentrum"
+                    },
+                    {
+                        "value": "KC26",
+                        "label": "Valengallerian"
+                    },
+                    {
+                        "value": "SR19",
+                        "label": "Valhallavägen 77 B Tekniska Högskolan T"
+                    },
+                    {
+                        "value": "SR13",
+                        "label": "Vasagatan 11"
+                    },
+                    {
+                        "value": "SR24",
+                        "label": "Vasagatan 4"
+                    },
+                    {
+                        "value": "KC46",
+                        "label": "Vågen"
+                    },
+                    {
+                        "value": "KC30",
+                        "label": "Vårberg Centrum"
+                    },
+                    {
+                        "value": "KC11",
+                        "label": "Västermalmsgallerian"
+                    },
+                    {
+                        "value": "TB32",
+                        "label": "Zinkensdamm T-bana"
+                    },
+                    {
+                        "value": "TB43",
+                        "label": "Årstaberg P"
+                    },
+                    {
+                        "value": "TB44",
+                        "label": "Älvsjö P"
+                    },
+                    {
+                        "value": "TB33",
+                        "label": "Östermalmstorg T-bana"
+                    },
+                    {
+                        "value": "TB34",
+                        "label": "Östermalmstorg T-bana LED (3456 x 1920 mm)"
+                    },
+                    {
+                        "value": "TB45",
+                        "label": "Östra Station"
+                    }
+                ]
+            }
+        }
+    },
+    "expansion": [],
+    "methods_allowed": [
+        "GET"
+    ]
+}
